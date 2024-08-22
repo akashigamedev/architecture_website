@@ -1,0 +1,25 @@
+.main{
+    margin-left: 200px;
+     margin-right: 200px;
+     
+}
+.main h1{
+    text-align: center;
+    
+}
+.contain{
+    display: flex;
+     gap: 6rem;
+     margin-top: 80px; 
+}
+.left{
+    width: 55%;
+}
+.right{
+     width: 500px;
+      height: 380px;
+      
+}
+.right img{
+    border-radius: 6px;
+}
