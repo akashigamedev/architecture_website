@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+    margin: 0 3rem;
+}
+
+.textSection {
+    grid-column: 2 / span 10;
+    text-align: center;
+}
+
+.textSection h2, .textSection p {
+    margin-bottom: 1rem;
+}
+
+.textSection p {
+    color: var(--clr-text-400);
+}
+
+.processCard {
+    grid-column: span 3;
+    background-color: var(--clr-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 3rem;
+    border-radius: 6px;
+}
+.processCard img {
+    height: 64px;
+}

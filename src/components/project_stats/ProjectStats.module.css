@@ -1,0 +1,30 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: var(--clr-secondary);
+    margin: 0 3rem;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 4rem 0;
+}
+
+.statCard {
+    grid-column: span 3;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    border-right: 1px solid rgba(59, 90, 253, 0.3);
+}
+.statCard:last-child {
+    border: none;
+}
+
+.statCard h3 {
+    color: var(--clr-accent-yellow);
+}
+.statCard p {
+    color: var(--clr-text-400);
+}

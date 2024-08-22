@@ -1,0 +1,66 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+  margin: 0 3rem;
+}
+
+.grid p {
+  grid-column: span 4;
+}
+
+.contentSection {
+  grid-column: 3 / span 8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.readMoreBtn {
+    grid-column: span 12;
+    justify-self: center;
+    align-self: center;
+}
+
+.contentSection img {
+    width: 50%;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.textSection {
+  grid-column: 2 / span 10;
+  text-align: center;
+}
+
+.textSection h2,
+.textSection p {
+  margin-bottom: 1rem;
+}
+
+.textSection p {
+  color: var(--clr-text-400);
+}
+
+.btnGroup {
+  grid-column: 2 / span 10;
+  justify-self: center;
+  height: fit-content;
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.selectionBtn {
+  border: none;
+  color: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+}
+.loader {
+  grid-column: 2 / span 10;
+  justify-self: center;
+  height: 280px;
+}

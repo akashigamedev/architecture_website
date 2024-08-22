@@ -1,0 +1,15 @@
+.btn {
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    background-color: var(--clr-accent-blue);
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #2542D9;
+}

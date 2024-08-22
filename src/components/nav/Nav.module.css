@@ -1,0 +1,34 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem 3rem; 
+    background: var(--clr-secondary);
+    padding-bottom: 20px;
+}
+
+.logo{
+    grid-column: span 4;
+}
+
+.logo > img {
+    height: 72px;
+}
+
+nav {
+    grid-column: span 8;
+    justify-self: end;
+}
+
+nav > a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 250ms;
+    padding: 2rem;
+}
+
+nav > a:hover, nav > a:focus {
+    color: var(--clr-accent-blue);
+}

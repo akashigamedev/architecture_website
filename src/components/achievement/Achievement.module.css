@@ -1,0 +1,41 @@
+.main{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.mainCard{
+    
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 600px;
+          position: relative;
+}
+.flex{
+    display: flex;
+            gap: 3rem;
+            width: 100%;
+            position: absolute;
+            bottom: 80px;
+}
+.by{
+    display: flex;
+              flex-direction: column;
+              gap: 2rem;
+              width: 800px;
+}
+.comp{
+    background-color: black;
+                  width: 80%;
+                  height: 200px;
+                  border-radius: 3%;
+                  text-align: center;
+                  padding:50px;
+                  opacity: 75%;
+}
+.cardrow{
+    display:flex;
+     gap: 2rem;
+      margin-left: 150px;
+}
+.text{
+    width: 33%;
+}

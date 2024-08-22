@@ -1,0 +1,13 @@
+.opSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 0 150px;
+}
+
+.opCard {
+    grid-column: span 1;
+background-color: var(--clr-secondary);
+    display: flex;
+    flex-direction: column;
+}

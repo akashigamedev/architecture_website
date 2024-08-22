@@ -1,0 +1,94 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+    padding: 1rem 3rem;
+}
+
+.mainFooter,
+.copyrightFooter {
+    background: var(--clr-secondary);
+}
+.copyrightFooter {
+    border-top: 1px solid var(--clr-text-800);
+}
+.mainFooter {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contactSection > h4,
+.servicesSection > h4,
+.contactSection > h4 {
+    margin-bottom: 1rem;
+}
+
+.aboutSection {
+    grid-column: span 4;
+}
+.aboutSection p {
+    margin-top: 0.5rem;
+    color: var(--clr-text-400);
+}
+
+.servicesSection {
+    grid-column: 7 / span 2;
+}
+.servicesSection ul {
+    list-style: none;
+    margin-top: 0.5rem;
+}
+.servicesSection ul li {
+    margin-bottom: 10px;
+ }
+.servicesSection ul li a {
+    color: var(--clr-text-400);
+    text-decoration: none;
+    transition: color 250ms;
+}
+.servicesSection ul li a:hover {
+    color: var(--clr-accent-blue);
+}
+.contactSection {
+    grid-column: 9 / span 4;
+    justify-self: end;
+}
+.contactSection > div {
+    margin-bottom: 10px;
+    width: 40ch;
+}
+.contactSection > div > p {
+    color: var(--clr-text-400);
+}
+
+.contactSection > div {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.copyrightFooter {
+    align-items: center;
+}
+.copyrightFooter span {
+    grid-column: span 4;
+    font-size: 12px;
+}
+
+.copyrightFooter img {
+    grid-column: span 4;
+    height: 48px;
+    justify-self: center;
+}
+.copyrightFooter .links {
+    grid-column: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+}
+.links a img {
+    width: 32px;
+    height: 32px;
+}
