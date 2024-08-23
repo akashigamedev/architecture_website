@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Footer from "./components/footer/Footer.js";
 import Nav from "./components/nav/Nav.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -8,10 +9,12 @@ import Career from "./pages/career/Career.js";
 import Contact from "./pages/contact/Contact.js";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
     <Router>
       <header style={{marginBottom: 'var(--m-xxl)'}}>
-        <Nav />
+        <Nav darkMode={darkMode} setDarkMode={setDarkMode}/>
       </header>
       <main>
         <Routes>

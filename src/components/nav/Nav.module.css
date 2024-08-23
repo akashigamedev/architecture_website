@@ -1,24 +1,19 @@
 .grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem; 
-    background: var(--clr-secondary);
-    padding-bottom: 20px;
+    background-color: var(--clr-secondary);
+    padding: 2rem;
 }
-
-.logo{
-    grid-column: span 4;
-}
-
 .logo > img {
-    height: 72px;
+    height: 64px;
 }
 
 nav {
-    grid-column: span 8;
-    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
 nav > a {
@@ -26,7 +21,14 @@ nav > a {
     text-decoration: none;
     text-transform: uppercase;
     transition: color 250ms;
-    padding: 2rem;
+    padding: 1rem;
+}
+
+button {
+    padding: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 nav > a:hover, nav > a:focus {
