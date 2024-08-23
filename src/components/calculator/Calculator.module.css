@@ -1,0 +1,45 @@
+.body {
+    background-color: var(--clr-secondary);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.body h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.input {
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.inputs input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--clr-primary);
+    color: rgb(255, 255, 255);
+    width: 210px;
+   
+}
+
+.body button {
+    padding: 13px 28px;
+    border: none;
+    border-radius: 5px;
+    background-color:#2542D9;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
