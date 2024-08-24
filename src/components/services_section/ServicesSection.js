@@ -54,7 +54,7 @@ function SelectionButton({ title, tag, selected, setSelected }) {
               background: "var(--clr-secondary)",
             }
       }
-      class={styles.selectionBtn}
+      className={styles.selectionBtn}
       onClick={() => {
         setSelected(tag);
       }}
