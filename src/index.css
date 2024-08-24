@@ -8,21 +8,22 @@
   /* color variables */
   --clr-primary: #050315;
   --clr-secondary: #1a1c36;
-  --clr-accent-blue: #3b5afd;
-  --clr-accent-yellow: #ebc238;
+  --clr-accent: #3b5afd;
   --clr-text-800: #fbfbfe;
   --clr-text-400: #dedcff;
   --clr-error: #ff3333;
   --clr-success: #82dd55;
   --clr-warning: #edb95e;
-
+  
   --dark-primary: #050315;
   --dark-secondary: #1a1c36;
+  --dark-accent: #ebc238;
   --dark-text-800: #fbfbfe;
   --dark-text-400: #dedcff;
-
+  
   --light-primary: #fcfcfe;
   --light-secondary: #dedcff;
+  --light-accent: #3b5afd;
   --light-text-800: #050315;
   --light-text-400: #1a1c36;
 

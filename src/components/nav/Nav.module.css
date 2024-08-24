@@ -32,5 +32,5 @@ button {
 }
 
 nav > a:hover, nav > a:focus {
-    color: var(--clr-accent-blue);
+    color: var(--clr-accent);
 }

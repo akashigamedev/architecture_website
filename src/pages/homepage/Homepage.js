@@ -8,6 +8,7 @@ import Process from "../../components/process/Process";
 import Testimonials from "../../components/testimonials.js/Testimonials";
 import ContactForm from "../../components/contact_form/ContactForm";
 import ServicesSection from "../../components/services_section/ServicesSection";
+import Hero from "../../components/hero/Hero";
 
 export default function Homepage() {
   const {
@@ -19,6 +20,7 @@ export default function Homepage() {
   } = data;
   return (
     <>
+      <Hero />
       <Spacer />
       <ProductSection
         title={"Interior Design"}

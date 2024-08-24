@@ -21,7 +21,7 @@
 .productCard {
     grid-column: span 3;
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 .btn {
     grid-column: span 12;

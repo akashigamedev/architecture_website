@@ -43,10 +43,17 @@ const list = [
 function SelectionButton({ title, tag, selected, setSelected }) {
   return (
     <button
-      style={{
-        background:
-          tag == selected ? "var(--clr-accent-blue)" : "var(--clr-secondary)",
-      }}
+      style={
+        tag == selected
+          ? {
+              background: "var(--clr-accent)",
+              color: "var(--dark-text-800)",
+              fontWeight: 700,
+            }
+          : {
+              background: "var(--clr-secondary)",
+            }
+      }
       class={styles.selectionBtn}
       onClick={() => {
         setSelected(tag);

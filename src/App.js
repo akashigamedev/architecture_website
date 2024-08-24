@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Router>
-      <header style={{marginBottom: 'var(--m-xxl)'}}>
+      <header>
         <Nav darkMode={darkMode} setDarkMode={setDarkMode}/>
       </header>
       <main>

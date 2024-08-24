@@ -28,7 +28,7 @@
     text-align: center;
     padding: 2rem 1.5rem;
     gap: 1.5rem;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .testimonialCard > .user {

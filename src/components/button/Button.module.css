@@ -1,10 +1,10 @@
 .btn {
     border: none;
     text-decoration: none;
-    color: inherit;
-    background-color: var(--clr-accent-blue);
-    padding: 1rem 2rem;
-    border-radius: 6px;
+    color: white;
+    background-color: var(--clr-accent);
+    padding: 1.2rem 3rem;
+    border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
 }

@@ -6,9 +6,9 @@
     width: 100%;
 }
 .textSection {
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     padding-bottom: 1rem;
 }
 .textSection p {
-    color: var(--clr-accent-yellow);
+    color: var(--clr-accent);
 }

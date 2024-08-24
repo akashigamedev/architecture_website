@@ -47,7 +47,7 @@
     transition: color 250ms;
 }
 .servicesSection ul li a:hover {
-    color: var(--clr-accent-blue);
+    color: var(--clr-accent);
 }
 .contactSection {
     grid-column: 9 / span 4;

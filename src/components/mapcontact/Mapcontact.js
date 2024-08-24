@@ -30,15 +30,15 @@ const MapContact = () => {
             return (
               <div className={styles.contactInfoSection}>
                 <div className={styles.contactInfoItem}>
-                  <IoCall size={24} color="var(--clr-accent-yellow)" />
+                  <IoCall size={24} color="var(--clr-accent)" />
                   <p>{item.phone}</p>
                 </div>
                 <div className={styles.contactInfoItem}>
-                  <IoMail size={24} color="var(--clr-accent-yellow)" />
+                  <IoMail size={24} color="var(--clr-accent)" />
                   <p>{item.email}</p>
                 </div>
                 <div className={styles.contactInfoItem}>
-                  <FaLocationDot size={24} color="var(--clr-accent-yellow)" />
+                  <FaLocationDot size={24} color="var(--clr-accent)" />
                   <p>{item.address}</p>
                 </div>
               </div>

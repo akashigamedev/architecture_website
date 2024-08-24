@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Testimonials.module.css";
+import { BiSolidQuoteLeft } from "react-icons/bi";
 
 export default function Testimonials({ data }) {
   return (
@@ -15,7 +16,7 @@ export default function Testimonials({ data }) {
       </div>
       {data.map((item) => (
         <div className={styles.testimonialCard}>
-          <img src="/assets/icons/quote.png" alt='""' />
+          <BiSolidQuoteLeft size={24} color='var(--clr-accent)' />
           <p>{item.review}</p>
           <div className={styles.user}>
             <img className={styles.avatar} src={item.avatar} alt="user image" />

@@ -14,8 +14,8 @@
     background-color: var(--clr-secondary);
     border: none;
     color: var(--clr-text-800);
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
+    padding: 1rem;
+    border-radius: 10px;
     resize: none;
 }
 .inputSection input:focus {

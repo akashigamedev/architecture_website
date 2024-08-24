@@ -45,7 +45,7 @@
     background: var(--clr-primary);
     padding: 0.5rem;
     width: 400px;
-    border-radius: 6px;
+    border-radius: 10px;
     color: var(--clr-text-400);
     font-weight: 300;
 }
