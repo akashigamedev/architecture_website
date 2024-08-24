@@ -7,7 +7,7 @@ import Spacer from '../../components/Spacer';
 export default function Contact() {
   return (
     <div>
-      <h2 style={{textAlign: 'center', marginBottom: 'var(--m-lg)'}}>CONTACT US</h2>
+      
       <Mapcontact />
       <Spacer />
       <ContactForm />

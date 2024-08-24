@@ -1,3 +1,4 @@
+@media only screen and (min-width : 431px){
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -48,4 +49,66 @@
     color: var(--clr-text-400);
     font-weight: 300;
 }
+.main h2{
+    text-align: center;
+     margin-bottom: var(--m-lg);
+}
+}
 
+@media only screen and (max-width : 431px) {
+    .main h2 {
+            text-align: center;
+             margin-bottom: var(--m-lg); 
+             margin-left: 10px;     
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .left iframe{
+
+        width: 100%;
+        height: 320px;
+    }
+    .right {
+        background: var(--clr-secondary);
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .textSection {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        
+       ;
+    }
+    .textSection p {
+        color: var(--clr-text-400);
+        width: 95%;
+        padding-left:2rem
+    }
+    .textSection h4{
+        text-align: center;
+    }
+    
+    .contactInfoSection {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .contactInfoItem > p {
+        background: var(--clr-primary);
+        padding: 0.5rem;
+        width: 400px;
+        border-radius: 6px;
+        color: var(--clr-text-400);
+        font-weight: 300;
+    }
+}

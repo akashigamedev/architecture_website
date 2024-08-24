@@ -6,6 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const MapContact = () => {
   return (
+    <div className={styles.main}> <h2>CONTACT US</h2>
     <div className={styles.grid}>
       <div className={styles.left}>
       <iframe
@@ -45,6 +46,7 @@ const MapContact = () => {
           })}
         </div>
       </div>
+    </div>
     </div>
   );
 };
