@@ -9,8 +9,8 @@ export default function Benefits() {
       </div>
 
       <div className={styles.out} >
-        <div className={styles.middle} style={{ }}>
-          <div className={styles.in}>
+        <div className={styles.middle}>
+          <div className={styles.ph}>
             <div className={styles.contain} >
               <h4>
                 Innovative projects
@@ -32,9 +32,9 @@ export default function Benefits() {
                 Collaborative Environment
               </h4>
             </div>
-          </div>
+          
 
-          <div className={styles.in}>
+        
             <div
               className={styles.contain}
             >
@@ -58,7 +58,8 @@ export default function Benefits() {
                 Work-Life Balance
               </h4>
             </div>
-          </div>
+        </div>
+
         </div>
       </div>
     </div>
