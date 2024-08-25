@@ -2,16 +2,13 @@ import React from "react";
 import styles from "./Testimonials.module.css";
 import { BiSolidQuoteLeft } from "react-icons/bi";
 
-export default function Testimonials({ data }) {
+export default function Testimonials({ title, description, data }) {
   return (
     <div className={styles.grid}>
       <div className={styles.textSection}>
-        <h2>What Our Clients Say?</h2>
+        <h2>{title}</h2>
         <p>
-          Hear directly from our satisfied clients about their experiences
-          working with us. Their testimonials highlight our commitment to
-          exceptional design, personalized service, and successful project
-          outcomes.
+          {description}
         </p>
       </div>
       {data.map((item) => (
