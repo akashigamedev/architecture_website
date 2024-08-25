@@ -1,14 +1,13 @@
 import React from "react";
-import styles from "./Homepage.module.css";
-import ProductSection from "../../components/product_section/ProductSection";
-import data from "../../db/homepage/db.json";
 import Spacer from "../../components/Spacer";
-import ProjectStats from "../../components/project_stats/ProjectStats";
-import Process from "../../components/process/Process";
-import Testimonials from "../../components/testimonials.js/Testimonials";
 import ContactForm from "../../components/contact_form/ContactForm";
-import ServicesSection from "../../components/services_section/ServicesSection";
 import Hero from "../../components/hero/Hero";
+import Process from "../../components/process/Process";
+import ProductSection from "../../components/product_section/ProductSection";
+import ProjectStats from "../../components/project_stats/ProjectStats";
+import ServicesSection from "../../components/services_section/ServicesSection";
+import Testimonials from "../../components/testimonials.js/Testimonials";
+import data from "../../db/homepage/db.json";
 
 export default function Homepage() {
   const {
@@ -46,7 +45,11 @@ export default function Homepage() {
       <Spacer />
       <ServicesSection />
       <Spacer />
-      <Testimonials data={testimonial_data} />
+      <Testimonials
+        title="What Our Clients Say?"
+        description="Hear directly from our satisfied clients about their experiences working with us. Their testimonials highlight our commitment to exceptional design, personalized service, and successful project outcomes."
+        data={testimonial_data}
+      />
       <Spacer />
       <ContactForm />
       <Spacer />

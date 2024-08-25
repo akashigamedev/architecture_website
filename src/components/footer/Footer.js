@@ -1,6 +1,14 @@
 import React from "react";
-import styles from "./Footer.module.css";
+import {
+  FaFacebookF,
+  FaHouse,
+  FaInstagram,
+  FaLinkedinIn,
+  FaXTwitter,
+} from "react-icons/fa6";
+import { MdEmail, MdPhone } from "react-icons/md";
 import { Link } from "react-router-dom";
+import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
@@ -42,46 +50,63 @@ export default function Footer() {
         <div className={styles.contactSection}>
           <h4>Contact Us</h4>
           <div>
-            <img src="/assets/icons/email.png" alt="Email:" />
-            <p>homebuildingassociates.interior@gmail.com</p>
-          </div>
-          <div>
-            <img src="/assets/icons/phone.png" alt="Phone:" />
-            <p>+91 (829) 987-1379</p>
-          </div>
-          <div>
-            <img src="/assets/icons/phone.png" alt="Phone:" />
-            <p>+91 (991) 985-2251</p>
-          </div>
-          <div>
-            <img src="/assets/icons/phone.png" alt="Phone:" />
-            <p>+91 (969) 585-9777</p>
-          </div>
-          <div>
-            <img src="/assets/icons/house.png" alt="Address:" />
-            <p>
-              Home Building Associates 119/517, Darshan Purwa, Kanpur 208012,
-              Uttar Pradesh
-            </p>
+            <div>
+              <MdEmail className={styles.icon} size={24} />
+              <p>homebuildingassociates.interior@gmail.com</p>
+            </div>
+            <div>
+              <MdPhone className={styles.icon} size={24} />
+              <p>+91 (829) 987-1379</p>
+            </div>
+            <div>
+              <MdPhone className={styles.icon} size={24} />
+              <p>+91 (991) 985-2251</p>
+            </div>
+            <div>
+              <MdPhone className={styles.icon} size={24} />
+              <p>+91 (969) 585-9777</p>
+            </div>
+            <div>
+              <FaHouse className={styles.icon} size={28} />
+              <p>
+                Home Building Associates 119/517, Darshan Purwa, Kanpur 208012,
+                Uttar Pradesh
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <div className={`${styles.copyrightFooter}  ${styles.grid}`}>
-        <span>@2024 Home Building Associates | All Rights Reserved</span>
-        <img src="/assets/images/logo.png" alt="Home Building Associates" />
-        <div className={styles.links}>
-          <a href="#">
-            <img src="/assets/icons/instagram.png" alt="instagram" />
-          </a>
-          <a href="#">
-            <img src="/assets/icons/twitter.png" alt="twitter" />
-          </a>
-          <a href="#">
-            <img src="/assets/icons/linkedin.png" alt="linkedin" />
-          </a>
-          <a href="#">
-            <img src="/assets/icons/facebook.png" alt="facebook" />
-          </a>
+        <span>&copy;2024 Home Building Associates | All Rights Reserved</span>
+        <img
+          className={styles.logo}
+          src="/assets/images/logo.png"
+          alt="Home Building Associates"
+        />
+        <div className={styles.followSection}>
+          <p>Follow Us</p>
+          <div className={styles.links}>
+            <a href="#">
+              <div>
+                <FaInstagram size={24} />
+              </div>
+            </a>
+            <a href="#">
+              <div>
+                <FaFacebookF size={24} />
+              </div>
+            </a>
+            <a href="#">
+              <div>
+                <FaXTwitter size={24} />
+              </div>
+            </a>
+            <a href="#">
+              <div>
+                <FaLinkedinIn size={24} />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
