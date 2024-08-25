@@ -4,6 +4,7 @@ import styles from "./Achievement.module.css";
 export default function Achivements() {
   return (
     <div className={styles.main}>
+      <h2>Achievements</h2>
       <div className={styles.mainCard}
         style={{
           backgroundImage: "url(/assets/images/8.png)",
@@ -14,9 +15,7 @@ export default function Achivements() {
 
         >
           <div className={styles.by}
-            style={{
-              
-            }}
+        
           >
             <div className={styles.cardrow}>
               <div className={styles.comp}

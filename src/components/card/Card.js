@@ -16,7 +16,7 @@ export default function Card() {
       </div>
 
       <div className={styles.cardcontain}>
-        <div className={styles.cardrow}>
+        
           <div className={styles.container} >
             <div>
               <img src="/assets/images/1.jpeg" alt="this is an image" />
@@ -41,10 +41,10 @@ export default function Card() {
               <h4>3D Visulization</h4>
             </div>
           </div>
-        </div>
+        
 
-        <div>
-        <div className={styles.cardrow}>
+        
+        
            <div className={styles.container} >
               <div>
                 <img
@@ -73,8 +73,8 @@ export default function Card() {
                 <h4>Budget Optimization</h4>
               </div>
             </div>
-          </div>
-        </div>
+          
+        
       </div>
     </div>
   );

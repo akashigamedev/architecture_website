@@ -16,6 +16,7 @@ export default function Leader() {
 
         <div className={styles.contain}
         >
+          
           <div className={styles.card}>
             <img
                       src="/assets/images/4.png"
@@ -32,7 +33,8 @@ export default function Leader() {
             <h4>Babita Goyal</h4>
             <p>CEO</p>
           </div>
-
+          
+          
           <div className={styles.card}>
             <img
             
@@ -51,7 +53,9 @@ export default function Leader() {
             <h4> Kritika Shukla</h4>
             <p>3d Artist</p>
             </div>
-          </div>
+            </div>
+          
+          
         </div>
       </div>
     </div>
