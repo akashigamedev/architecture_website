@@ -15,7 +15,7 @@ export default function Footer() {
     <div className={styles.container}>
       <div className={`${styles.mainFooter} ${styles.grid}`}>
         <div className={styles.aboutSection}>
-          <h4>About Us</h4>
+          <h3>About Us</h3>
           <p>
             Home Building Associates (HBA) Providing the best Architectural
             Services Solutions in one place. We are working this field in the
@@ -25,7 +25,7 @@ export default function Footer() {
           </p>
         </div>
         <div className={styles.servicesSection}>
-          <h4>Services</h4>
+          <h3>Services</h3>
           <ul>
             <li>
               <Link to="/services/interior">Interior design</Link>
@@ -48,7 +48,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.contactSection}>
-          <h4>Contact Us</h4>
+          <h3>Contact Us</h3>
           <div>
             <div>
               <MdEmail className={styles.icon} size={24} />
@@ -84,7 +84,7 @@ export default function Footer() {
           alt="Home Building Associates"
         />
         <div className={styles.followSection}>
-          <p>Follow Us</p>
+          <h3>Follow Us</h3>
           <div className={styles.links}>
             <a href="#">
               <div>
