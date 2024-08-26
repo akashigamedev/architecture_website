@@ -1,4 +1,4 @@
-@media only screen and (min-width:431px) {
+@media only screen and (min-width:1100px) {
     .big{
     background-color: var(--clr-secondary); 
     padding-top: 60px;
@@ -41,7 +41,38 @@ text-align: center;
 }
 
 }
+@media only screen and (min-width : 431px)and ( max-width:1100px){
+    .big{
+        background-color: var(--clr-secondary); 
+        padding-top: 60px;
+        margin-bottom: 4rem;
+        
+    }
+    .maincontain{
+        margin-left: 5%;
+        margin-right: 5%; 
+    }
+    .head h2{
+    text-align: center;
+    }
+    .head h4{
+        text-align: center;
+                  margin-left: 1%;
+                  margin-right: 1%;
+                  margin-bottom: 50px;
+    }
+    .contain{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        
+        padding-bottom: 60px;
+    }
+    .card{
 
+         text-align: center;
+    }
+}
     @media only screen and (max-width:431px) {
         .big{
             background-color: var(--clr-secondary); 

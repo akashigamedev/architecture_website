@@ -1,4 +1,4 @@
-@media only screen and (min-width:431px) {
+@media only screen and (min-width:1100px) {
     
 
 .big{
@@ -53,6 +53,63 @@ padding: 0 30px;
     margin-left: auto;
     margin-right: auto;
 }
+}
+@media only screen and (min-width : 431px)and ( max-width:1100px){
+    .big{
+        margin-left: 2%; 
+        margin-right: 2%;
+   }
+   .head{
+       margin-bottom: 50px;
+   }
+   .head h2{
+       text-align: center;
+        margin-bottom: 10px;
+   }
+   .head h4{
+       text-align:center;
+               margin-left: 10%;   
+                        margin-right: 5%;
+   }
+   .cardcontain{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-bottom: 100px;
+   }
+   
+   
+   .container {
+   border-radius: 10px;
+   background-color: var(--clr-secondary);
+   
+   height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 95%;
+   
+   
+   }
+   .container img{
+       width: 80px;
+       height: 80px;
+       border-radius: 50%;   
+       
+       margin-top: 2px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .container h4 {
+       margin-top: var(--m-sm);
+       margin-bottom: var(--m-sm);
+       text-transform: capitalize;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       margin: 20px;
+   }
 }
 
 @media only screen and (max-width:431px) {

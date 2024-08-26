@@ -1,4 +1,4 @@
-@media only screen and (min-width : 431px) {
+@media only screen and (min-width : 1100px) {
     .heading{
         text-align: center; 
         margin-bottom: 41px;
@@ -35,7 +35,41 @@ gap: 1rem;
         padding-left: 0.9rem;
     }
 }
+@media only screen and (min-width : 431px)and ( max-width:1100px){
+    .heading{
+        text-align: center; 
+        margin-bottom: 41px;
+    }
+    .out{
+        margin-left: 2%;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+         gap: 2rem; 
+    }
+    .ph{
+        display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 1rem;
+
+    }
     
+    .contain{
+        background-color: var(--clr-secondary);
+        height: 140px;
+        width: 95%;
+        border-radius:8px;
+        margin-right: 2%;
+        
+    }
+    .contain h4{
+        padding-top : 3rem; 
+        text-align: center;
+        padding-right: 0.9rem;
+        padding-left: 0.9rem;
+    }
+}
     @media only screen and (max-width : 431px) {
         .heading{
             text-align: center; 

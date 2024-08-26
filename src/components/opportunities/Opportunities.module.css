@@ -1,4 +1,4 @@
-@media only screen and (min-width : 431px) {
+@media only screen and (min-width : 1100px) {
 .opSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -50,7 +50,62 @@ margin-bottom: 10px;
                       margin-right: 10px;
 }
 }
+@media only screen and (min-width : 431px)and ( max-width:1100px){
+    .opSection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin-left: 20%;
+        
+        margin-right: 2%;
+    }
+    
+    .opCard {
+        grid-column: span 1;
+    background-color: var(--clr-secondary);
+        display: flex;
+        flex-direction: column;
+        padding: 10px; 
+        border-radius: 10px;
+        width :80%
+    }
+    .main{
+        margin-bottom: 80px;
 
+    }
+    .main h2{
+        text-align: center; 
+        margin-top: 80px;
+          margin-bottom: 41px;
+          margin-left: 20px;
+          margin-right: 20px;
+    }
+    .last p{
+    margin-bottom: 10px;
+    }
+    .contain{
+        margin-left: 20px;
+         margin-right: 20px;
+    }
+    .top{
+        border-bottom: solid;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+                        padding-bottom: 10px;
+    }
+    .cont{
+        width: 450px;
+    }
+    .im{
+        width: 60px;
+                          height: 30px;
+                          
+                          margin-top: 10px;
+                          margin-right: 10px;
+    }
+}
 @media only screen and (max-width : 431px) {
     .opSection {
         display: grid;

@@ -1,9 +1,12 @@
-@media only screen and (min-width:431px) {
+@media only screen and (min-width:1100px) {
     
 
 .main{
     margin-top: 100px;
     margin-bottom: 90px;
+}
+.main h2 {
+    text-align: center;
 }
 .mainCard{
     
@@ -47,6 +50,54 @@
 }
 }
 
+@media only screen and (min-width : 431px)and ( max-width:1100px){
+    .main{
+        
+        margin-bottom: 90px;
+    }
+    .mainCard{
+        
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 480px;
+              position: relative;
+              width: 100%;
+              
+    }
+    
+    .by{
+        display: flex;
+                  flex-direction: column;
+                  gap: 1rem;
+                  width: 100%;
+                  padding-top: 30px;
+    }
+    .comp{
+        background-color: black;
+                      width: 80%;
+                      height: 200px;
+                      border-radius: 3%;
+                      text-align: center;
+                      padding:50px;
+                      color: white;
+                      opacity: 75%;
+    }
+    
+    .cardrow{
+        display:flex;
+         gap: 2rem;
+          margin-left: 2%;
+          width: 95%;
+          margin-right: 2%;
+          
+    }
+    .main h2 {
+        text-align: center;
+    }
+    .text{
+        display: none;
+    }
+}
 @media only screen and (max-width:431px) {
     
     .main{

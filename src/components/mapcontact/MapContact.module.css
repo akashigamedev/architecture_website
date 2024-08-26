@@ -1,4 +1,4 @@
-@media only screen and (min-width : 431px){
+@media only screen and (min-width : 1100px){
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,6 +53,65 @@
     text-align: center;
      margin-bottom: var(--m-lg);
 }
+}
+@media only screen and (min-width : 431px)and ( max-width:1100px){
+    .grid {
+        display: grid;
+        grid-template-columns:  1fr;
+        
+        margin: 8%;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .left iframe {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .right {
+        background: var(--clr-secondary);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .textSection {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .textSection h4 {
+text-align: center;
+    }
+    .textSection p {
+        color: var(--clr-text-400);
+        
+    }
+    
+    .contactInfoSection {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .contactInfoItem {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .contactInfoItem > p {
+        background: var(--clr-primary);
+        padding: 0.5rem;
+        width: 550px;
+        border-radius: 10px;
+        color: var(--clr-text-400);
+        font-weight: 300;
+    }
+    .main h2{
+        text-align: center;
+         margin-bottom: var(--m-lg);
+    }
 }
 
 @media only screen and (max-width : 431px) {

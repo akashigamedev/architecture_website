@@ -1,4 +1,4 @@
-@media only screen and (min-width:431px) {
+@media only screen and (min-width:1100px) {
 .main{
     margin-left: 13%;
      margin-right: 13%;
@@ -24,6 +24,30 @@
 .right img{
     border-radius: 10px;
 }
+}
+
+@media only screen and (min-width : 431px)and ( max-width:1100px){
+    .main h1{
+        text-align: center;
+        
+    }  
+    .contain{
+        display: flex;
+        flex-direction: row;
+         gap: 2rem;
+         margin-top: 40px; 
+    } 
+    .main{
+        margin-left: 5%;
+         margin-right: 5%;
+         margin-bottom: 80px;
+         
+    }
+    .right img{
+        display: none;
+
+}
+
 }
     @media only screen and (max-width:431px) {
         .main h1{
