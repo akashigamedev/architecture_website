@@ -8,6 +8,7 @@
 .textSection {
     padding: 1rem;
     padding-bottom: 1rem;
+    text-align: center;
 }
 .textSection p {
     color: var(--clr-accent);

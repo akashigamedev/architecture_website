@@ -28,3 +28,27 @@
     justify-self: center;
     align-self: center;
 }
+
+@media only screen and (max-width: 1200px) {
+    .productCard {
+        grid-column: span 4;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .textSection {
+        grid-column: 1 / span 12;
+    }
+    .productCard {
+        grid-column: span 6;
+    }   
+}
+
+@media only screen and (max-width: 450px) {
+    .productCard {
+        grid-column: span 12;
+    }
+    .productCard img {
+        height: 200px;
+        object-fit: cover;
+    }
+}

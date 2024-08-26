@@ -28,3 +28,18 @@
 .statCard p {
     color: var(--clr-text-400);
 }
+
+@media only screen and (max-width: 800px) {
+    .statCard {
+        grid-column: span 6;
+        border-right: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .statCard {
+        grid-column: span 12;
+        border-right: none;
+        padding-bottom: 3rem;
+    }
+}

@@ -33,3 +33,21 @@
 .processCard img {
     height: 64px;
 }
+
+@media only screen and (max-width: 800px) {
+    .processCard {
+        grid-column: span 6;
+    }
+    .textSection {
+        grid-column:  1 / span 12;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .processCard {
+        grid-column: span 12;
+    }
+}
+
+
