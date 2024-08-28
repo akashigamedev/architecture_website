@@ -4,7 +4,6 @@ import styles from "./Achievement.module.css";
 export default function Achivements() {
   return (
     <div className={styles.main}>
-      <h2>Achievements</h2>
       <div
         className={styles.mainCard}
         style={{

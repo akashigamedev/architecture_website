@@ -11,6 +11,7 @@ export default function About() {
       <WhoWeAre />
       <Spacer />
       <Card />
+      <Spacer />
       <Leader />
       <Achivements />
     </div>
