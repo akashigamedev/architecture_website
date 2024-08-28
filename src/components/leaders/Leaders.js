@@ -7,11 +7,11 @@ export default function Leader() {
       <div className={styles.maincontain}>
         <div className={styles.head}>
           <h2>Meet Our Leader</h2>
-          <h4>
+          <p>
             Our leaders are seasoned professionals with a passion for innovative
             design and a commitment to excellence. They guide our team to
             deliver outstanding results for every project.
-          </h4>
+          </p>
         </div>
 
         <div className={styles.contain}

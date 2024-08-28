@@ -3,6 +3,9 @@
     margin-top: 100px;
     margin-bottom: 90px;
   }
+  .main p{
+color: var(--dark-text-400);
+  }
   .main h2 {
     text-align: center;
   }

@@ -6,11 +6,11 @@ export default function Card() {
     <div className={styles.big}>
       <div className={styles.head}>
         <h2>Why Choose Us?</h2>
-        <h4>
+        <p>
           Partner with us for expert consultation, personalized designs , and
           cutting-edge 3D visualizations. We ensure sustainable, cost-effective
           solutions to bring your vision to life.
-        </h4>
+        </p>
       </div>
 
       <div className={styles.cardcontain}>
