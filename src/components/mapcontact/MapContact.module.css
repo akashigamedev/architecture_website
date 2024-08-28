@@ -1,179 +1,88 @@
-@media only screen and (min-width : 1100px){
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+p,
+span {
+  color: var(--clr-text-400);
+}
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 400px;
-    margin: 0 12rem;
-    overflow: hidden;
-    border-radius: 10px;
-}
-.left iframe {
-    width: 100%;
-    height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 12rem;
+  background: var(--clr-secondary);
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.right {
-    background: var(--clr-secondary);
-    padding: 2rem 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
+.contentSection {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.textSection {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.textSection h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 .textSection p {
-    color: var(--clr-text-400);
-    width: 45ch;
+  max-width: 35ch;
+}
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+.infoItem {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
-.contactInfoSection {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.infoItem > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-.contactInfoItem {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-.contactInfoItem > p {
-    background: var(--clr-primary);
-    padding: 0.5rem;
-    width: 400px;
-    border-radius: 10px;
-    color: var(--clr-text-400);
-    font-weight: 300;
-}
-.main h2{
-    text-align: center;
-     margin-bottom: var(--m-lg);
-}
-}
-@media only screen and (min-width : 431px)and ( max-width:1100px){
-    .grid {
-        display: grid;
-        grid-template-columns:  1fr;
-        
-        margin: 8%;
-        overflow: hidden;
-        border-radius: 10px;
-    }
-    .left iframe {
-        width: 100%;
-        height: 300px;
-    }
-    
-    .right {
-        background: var(--clr-secondary);
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 2rem;
-    }
-    
-    .textSection {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    .textSection h4 {
-text-align: center;
-    }
-    .textSection p {
-        color: var(--clr-text-400);
-        
-    }
-    
-    .contactInfoSection {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    .contactInfoItem {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-    .contactInfoItem > p {
-        background: var(--clr-primary);
-        padding: 0.5rem;
-        width: 550px;
-        border-radius: 10px;
-        color: var(--clr-text-400);
-        font-weight: 300;
-    }
-    .main h2{
-        text-align: center;
-         margin-bottom: var(--m-lg);
-    }
+.infoItem span {
+  white-space: pre-line;
 }
 
-@media only screen and (max-width : 431px) {
-    .main h2 {
-            text-align: center;
-             margin-bottom: var(--m-lg); 
-             margin-left: 10px;     
-    }
-    .grid{
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .left iframe{
+@media only screen and (max-width: 1200px) {
+  .grid {
+    margin: 0 5rem;
+  }
+  .infoItem span {
+    font-size: 0.875rem;
+  }
+}
 
-        width: 100%;
-        height: 320px;
-    }
-    .right {
-        background: var(--clr-secondary);
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 2rem;
-    }
-    .textSection {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        
-       ;
-    }
-    .textSection p {
-        color: var(--clr-text-400);
-        width: 95%;
-        padding-left:2rem
-    }
-    .textSection h4{
-        text-align: center;
-    }
-    
-    .contactInfoSection {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        margin-left: 5px;
-        margin-bottom: 15px;
-    }
-    
-    .contactInfoItem > p {
-        background: var(--clr-primary);
-        padding: 0.5rem;
-        width: 375px;
-        border-radius: 6px;
-        color: var(--clr-text-400);
-        font-weight: 300;
-        margin-left: 4px;
-    }
-    .contactInfoItem svg{
-        margin-bottom: 8px;
-        margin-left: 2px;
-    }
+@media only screen and (max-width: 800px) {
+  .textSection p {
+    max-width: fit-content;
+  }
+  .grid > * {
+    grid-column: span 2;
+  }
+  .map {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .grid {
+    margin: 0 2rem;
+  }
+  .map {
+    height: 300px;
+  }
+  .contentSection {
+    padding: 1rem;
+  }
+  .icon {
+    display: none;
+  }
 }

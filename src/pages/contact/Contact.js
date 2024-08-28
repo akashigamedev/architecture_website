@@ -7,7 +7,7 @@ import Spacer from '../../components/Spacer';
 export default function Contact() {
   return (
     <div>
-      
+      <Spacer />
       <Mapcontact />
       <Spacer />
       <ContactForm />
