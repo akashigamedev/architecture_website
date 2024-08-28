@@ -4,7 +4,7 @@ import styles from "./WhoWeAre.module.css";
 const WhoWeAre = () => {
   return (
     <div className={styles.container}>
-      <h1>About us</h1>
+      {/* <h1>About us</h1> */}
       <section>
         <div className={styles.textSection}>
           <h2>Who we are?</h2>

@@ -7,7 +7,6 @@ import Spacer from '../../components/Spacer';
 export default function About() {
   return (
     <div>
-      <Spacer size={'small'} />
       <WhoWeAre />
       <Spacer />
       <Card />

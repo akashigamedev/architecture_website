@@ -5,7 +5,7 @@ export default function Workus() {
   return (
     <div>
       <div className={styles.container}>
-        <h1>CAREER</h1>
+        {/* <h2>CAREER</h2> */}
         <div className={styles.section}>
           <div className={styles.contentSection}>
             <h2>Work With Us</h2>
