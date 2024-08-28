@@ -1,5 +1,6 @@
 {
   "name": "homebuildingassociateswebsite",
+  "homepage": "https://akashigamedev.github.io/homebuildingassociates",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
