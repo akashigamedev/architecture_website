@@ -5,48 +5,35 @@ export default function Achivements() {
   return (
     <div className={styles.main}>
       <h2>Achievements</h2>
-      <div className={styles.mainCard}
+      <div
+        className={styles.mainCard}
         style={{
           backgroundImage: "url(/assets/images/8.png)",
-       
         }}
       >
-        <div className={styles.flex}
-
-        >
-          <div className={styles.by}
-        
-          >
+        <div className={styles.flex}>
+          <div className={styles.by}>
             <div className={styles.cardrow}>
-              <div className={styles.comp}
-                
-              >
+              <div className={styles.comp}>
                 <h3>150</h3>
-                <p>Project Complited</p>
+                <p>Projects Completed</p>
               </div>
 
-              <div
-                 className={styles.comp}
-              
-              >
+              <div className={styles.comp}>
                 <h3>150</h3>
-                <p>Project Complited</p>
+                <p>Projects Completed</p>
               </div>
             </div>
 
             <div className={styles.cardrow}>
-              <div
-                 className={styles.comp}
-              >
+              <div className={styles.comp}>
                 <h3>150</h3>
-                <p>Project Complited</p>
+                <p>Projects Completed</p>
               </div>
 
-              <div
-                 className={styles.comp}
-              >
+              <div className={styles.comp}>
                 <h3>150</h3>
-                <p>Project Complited</p>
+                <p>Projects Completed</p>
               </div>
             </div>
           </div>

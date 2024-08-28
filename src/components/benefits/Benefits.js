@@ -2,66 +2,22 @@ import React from "react";
 import styles from "./Benefits.module.css";
 
 export default function Benefits() {
+  const benefits = [
+    "Innovative Projects",
+    "Career Growth",
+    "Collaborative Environment",
+    "Creative Freedom",
+    "Competitive Compensation",
+    "Work-Life Balance",
+  ];
   return (
-    <div>
-      <div className={styles.heading}>
+    <div className={styles.container}>
+      <div className={styles.textSection}>
         <h2>Benefits of working with us</h2>
       </div>
-
-      <div className={styles.out} >
-        <div className={styles.middle}>
-          <div className={styles.ph}>
-            <div className={styles.contain} >
-              <h4>
-                Innovative projects
-              </h4>
-            </div>
-
-            <div
-              className={styles.contain}
-            >
-              <h4 >
-                Carrer Growth
-              </h4>
-            </div>
-
-            <div
-             className={styles.contain}
-            >
-              <h4 >
-                Collaborative Environment
-              </h4>
-            </div>
-          
-
-        
-            <div
-              className={styles.contain}
-            >
-              <h4 >
-                Creative Freedom
-              </h4>
-            </div>
-
-            <div
-             className={styles.contain} 
-            >
-              <h4 >
-                Competitive Compensation
-              </h4>
-            </div>
-
-            <div
-              className={styles.contain}
-            >
-              <h4 >
-                Work-Life Balance
-              </h4>
-            </div>
-        </div>
-
-        </div>
-      </div>
+      {benefits.map((benefit) => (
+        <div className={styles.card}>{benefit}</div>
+      ))}
     </div>
   );
 }

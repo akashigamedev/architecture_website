@@ -27,6 +27,7 @@
 
 .textSection p {
     margin-top: -1rem;
+    color: var(--dark-text-800);
 }
 
 .btn {

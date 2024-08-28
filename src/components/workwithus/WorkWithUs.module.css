@@ -1,69 +1,82 @@
-@media only screen and (min-width:1100px) {
-.main{
-    margin-left: 13%;
-     margin-right: 13%;
-     
+.smallerDevicesImg {
+  display: none;
 }
-.main h1{
-    text-align: center;
-    
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+  margin: 0 12rem;
 }
-.contain{
-    display: flex;
-     gap: 6rem;
-     margin-top: 80px; 
+.container > h1 {
+  grid-column: span 12;
+  text-align: center;
 }
-.left{
-    width: 55%;
+.section {
+  grid-column: span 12;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
 }
-.right{
-     width: 500px;
-      height: 380px;
-      
+.section h2 {
+  margin-bottom: 0.5rem;
 }
-.right img{
+.section > img {
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+}
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.contentSection p {
+  color: var(--clr-text-400);
+  max-width: 50ch;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin: 0 5rem;
+  }
+  .section {
+    gap: 3rem;
+  }
+  .section > img {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    margin: 0 3rem;
+  }
+  .contentSection p {
+    max-width: fit-content;
+  }
+  .contentSection {
+    /* margin: 0 auto; */
+  }
+  .section > img {
+    display: none;
+  }
+  .smallerDevicesImg {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
     border-radius: 10px;
-}
-}
-
-@media only screen and (min-width : 431px)and ( max-width:1100px){
-    .main h1{
-        text-align: center;
-        
-    }  
-    .contain{
-        display: flex;
-        flex-direction: row;
-         gap: 2rem;
-         margin-top: 40px; 
-    } 
-    .main{
-        margin-left: 5%;
-         margin-right: 5%;
-         margin-bottom: 80px;
-         
-    }
-    .right img{
-        display: none;
-
+  }
+  .contentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
 }
 
+@media only screen and (max-width: 450px) {
+  
 }
-    @media only screen and (max-width:431px) {
-        .main h1{
-            text-align: center;
-            
-        }  
-        .contain{
-            display: flex;
-            flex-direction: column;
-             gap: 2rem;
-             margin-top: 40px; 
-        } 
-        .main{
-            margin-left: 5%;
-             margin-right: 5%;
-             margin-bottom: 80px;
-             
-        }
-    }
