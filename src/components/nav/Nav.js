@@ -31,7 +31,7 @@ export default function Nav({ darkMode, setDarkMode }) {
         <Link to="/" className={styles.logo}>
           <img src="/architecture_website/assets/images/logo.png" alt="Home Building Associates" />
         </Link>
-        <nav className={styles.desktopNav}>
+        <nav id="nav" className={styles.desktopNav}>
           <Link to="/architecture_website">Home</Link>
           <Link to="/about">About Us</Link>
           <Link to="/services">Services</Link>

@@ -52,7 +52,7 @@ export default function Homepage() {
       />
       <Spacer />
       <ContactForm />
-      <Spacer />
+      <Spacer size={"small"}/>
     </>
   );
 }

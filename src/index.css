@@ -77,6 +77,9 @@ h6 {
 #__next {
   isolation: isolate;
 }
+html {
+  scroll-behavior: smooth;
+}
 h1,
 h2 {
   font-family: var(--ff-primary);

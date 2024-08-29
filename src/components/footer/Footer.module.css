@@ -6,7 +6,7 @@
   padding-bottom: 0;
   margin-top: var(--m-xl);
   background: var(--clr-secondary);
-  justify-items: center;
+  justify-items: end;
 }
 
 p {
@@ -68,6 +68,9 @@ p {
   flex-direction: row;
   gap: 3rem;
 }
+.socialLinks a > * {
+  min-width: 24px;
+}
 .socialLinks a {
   color: inherit;
   transition: color 300ms ease-in;
@@ -93,4 +96,73 @@ p {
   margin-bottom: 1rem;
   grid-column: span 12;
   text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  h4 {
+    font-size: 16px;
+  }
+  .container {
+    padding: 3rem;
+    padding-bottom: 1rem;
+  }
+  p,
+  .linksGroup > *,
+  .serviceGroup > * {
+    font-size: 14px;
+  }
+  span {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .infoContainer,
+  .linksSection,
+  .serviceSection {
+    grid-column: span 4;
+  }
+  .socialSection {
+    display: none;
+  }
+  .socialLinks.disable {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    gap: 0;
+    padding: 2rem;
+  }
+  .infoContainer {
+    grid-column: span 12;
+  }
+  .socialLinks.disable {
+    display: none;
+  }
+  .socialSection {
+    justify-self: start;
+    display: flex;
+    gap:1rem;
+    margin-top: 50px;
+    grid-row-start: 2;
+    grid-column: span 12;
+  }
+  .linksSection,
+  .serviceSection {
+    margin-top: 60px;
+    grid-column: span 6;
+    justify-self: start;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+  .contactSection p {
+    max-width: 27ch;
+  }
 }

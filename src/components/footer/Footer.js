@@ -50,6 +50,7 @@ const Footer = () => {
           <Link to="/about">About Us</Link>
           <Link to="/career">Career</Link>
           <Link to="/contact">Contact Us</Link>
+          <a href="#nav">Go to top</a>
         </div>
       </div>
       <div className={styles.serviceSection}>
@@ -71,7 +72,7 @@ const Footer = () => {
         </p>
         <div className={styles.socialLinks}>
           <a href="#">
-            <IoLogoInstagram size={24} />
+            <IoLogoInstagram size={24}/>
           </a>
           <a href="#">
             <FaXTwitter size={24} />

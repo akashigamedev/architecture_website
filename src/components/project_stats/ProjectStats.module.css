@@ -42,4 +42,7 @@
         border-right: none;
         padding-bottom: 3rem;
     }
+    .grid {
+        margin: 0 2rem;
+    }
 }

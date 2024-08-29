@@ -45,6 +45,11 @@
 
 
 @media only screen and (max-width: 450px) {
+    .grid {
+        gap: 0;
+        row-gap: 2rem;
+        margin: 0 2rem;
+    }
     .processCard {
         grid-column: span 12;
     }
