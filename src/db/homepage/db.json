@@ -3,42 +3,42 @@
     {
       "name": "Kitchen",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/interior/image_1.png"
+      "image": "/architecture_website/assets/images/interior/image_1.png"
     },
     {
       "name": "Living Room",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/interior/image_2.png"
+      "image": "/architecture_website/assets/images/interior/image_2.png"
     },
     {
       "name": "Living Room",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/interior/image_3.png"
+      "image": "/architecture_website/assets/images/interior/image_3.png"
     },
     {
       "name": "Café Shop",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/interior/image_4.png"
+      "image": "/architecture_website/assets/images/interior/image_4.png"
     },
     {
       "name": "Café Shop",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/interior/image_5.png"
+      "image": "/architecture_website/assets/images/interior/image_5.png"
     },
     {
       "name": "Bathroom",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/interior/image_6.png"
+      "image": "/architecture_website/assets/images/interior/image_6.png"
     },
     {
       "name": "Gaming Room",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/interior/image_7.png"
+      "image": "/architecture_website/assets/images/interior/image_7.png"
     },
     {
       "name": "Living Room",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/interior/image_8.png"
+      "image": "/architecture_website/assets/images/interior/image_8.png"
     }
   ],
 
@@ -46,42 +46,42 @@
     {
       "name": "Agarwal Residence",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/exterior/image_1.png"
+      "image": "/architecture_website/assets/images/exterior/image_1.png"
     },
     {
       "name": "Singhania Residence",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/exterior/image_2.png"
+      "image": "/architecture_website/assets/images/exterior/image_2.png"
     },
     {
       "name": "Acharya Residence",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/exterior/image_3.png"
+      "image": "/architecture_website/assets/images/exterior/image_3.png"
     },
     {
       "name": "Goyal Residence",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/exterior/image_4.png"
+      "image": "/architecture_website/assets/images/exterior/image_4.png"
     },
     {
       "name": "Malhotra Residence",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/exterior/image_5.png"
+      "image": "/architecture_website/assets/images/exterior/image_5.png"
     },
     {
       "name": "Farm House",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/exterior/image_6.png"
+      "image": "/architecture_website/assets/images/exterior/image_6.png"
     },
     {
       "name": "Bansal Residence",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/exterior/image_7.png"
+      "image": "/architecture_website/assets/images/exterior/image_7.png"
     },
     {
       "name": "Sharma Residence",
       "description": "300ft x 200ft  •  Residential",
-      "image": "/assets/images/exterior/image_8.png"
+      "image": "/architecture_website/assets/images/exterior/image_8.png"
     }
   ],
 
@@ -106,41 +106,41 @@
 
   "process_data": [
     {
-      "icon": "/assets/icons/paper.png",
+      "icon": "/architecture_website/assets/icons/paper.png",
       "text": "Submit Your Enquiry"
     },
     {
-      "icon": "/assets/icons/note.png",
+      "icon": "/architecture_website/assets/icons/note.png",
       "text": "Requirement Analysis By Our Team"
     },
     {
-      "icon": "/assets/icons/handshake.png",
+      "icon": "/architecture_website/assets/icons/handshake.png",
       "text": "Freeze Your Requirement"
     },
     {
-      "icon": "/assets/icons/construction.png",
+      "icon": "/architecture_website/assets/icons/construction.png",
       "text": "Construction Begins"
     }
   ],
   "testimonial_data": [
     {
       "username": "Annette Black",
-      "avatar": "/assets/images/avatars/image_1.png",
+      "avatar": "/architecture_website/assets/images/avatars/image_1.png",
       "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit felis nec tellus"
     },
     {
       "username": "Cameron Williamson",
-      "avatar": "/assets/images/avatars/image_2.png",
+      "avatar": "/architecture_website/assets/images/avatars/image_2.png",
       "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit felis nec tellus"
     },
     {
       "username": "Jenny Wilson",
-      "avatar": "/assets/images/avatars/image_3.png",
+      "avatar": "/architecture_website/assets/images/avatars/image_3.png",
       "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit felis nec tellus"
     },
     {
       "username": "Devon Lane",
-      "avatar": "/assets/images/avatars/image_4.png",
+      "avatar": "/architecture_website/assets/images/avatars/image_4.png",
       "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit felis nec tellus"
     }
   ]

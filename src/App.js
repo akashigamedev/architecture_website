@@ -14,11 +14,11 @@ function App() {
   return (
     <Router>
       <header>
-        <Nav darkMode={darkMode} setDarkMode={setDarkMode}/>
+        <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/architecture_website/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/career" element={<Career />} />

@@ -17,7 +17,7 @@ const WhoWeAre = () => {
             Services in all over India with very reasonable Costing.
           </p>
         </div>
-        <img src="/assets/images/2.png" alt="" />
+        <img src="/architecture_website/assets/images/2.png" alt="" />
       </section>
       <section>
         <div className={styles.textSection}>
@@ -30,7 +30,7 @@ const WhoWeAre = () => {
             time consuming and expensive visit to an engineer or a designer.
           </p>
         </div>
-        <img src="/assets/images/2.png" alt="" />
+        <img src="/architecture_website/assets/images/2.png" alt="" />
       </section>
     </div>
   );

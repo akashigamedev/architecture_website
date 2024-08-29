@@ -29,10 +29,10 @@ export default function Nav({ darkMode, setDarkMode }) {
     <>
       <div className={styles.container}>
         <Link to="/" className={styles.logo}>
-          <img src="/assets/images/logo.png" alt="Home Building Associates" />
+          <img src="/architecture_website/assets/images/logo.png" alt="Home Building Associates" />
         </Link>
         <nav className={styles.desktopNav}>
-          <Link to="/">Home</Link>
+          <Link to="/architecture_website">Home</Link>
           <Link to="/about">About Us</Link>
           <Link to="/services">Services</Link>
           <Link to="/career">Career</Link>
@@ -54,7 +54,7 @@ export default function Nav({ darkMode, setDarkMode }) {
         ref={mobileNavRef}
         className={`${styles.mobileNav} ${openMenu ? styles.open : ""}`}
       >
-        <Link to="/">Home</Link>
+        <Link to="/architecture_website">Home</Link>
         <Link to="/about">About Us</Link>
         <Link to="/services">Services</Link>
         <Link to="/career">Career</Link>

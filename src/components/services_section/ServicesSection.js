@@ -8,35 +8,35 @@ const list = [
     tag: "floor",
     description:
       "Our floor planning service is designed to maximize the potential of your space, ensuring both functionality and aesthetic appeal. We meticulously craft layouts that optimize the flow and usability of each area, taking into account your specific needs and preferences. Our expert team combines innovative design principles with practical solutions, creating floor plans that are both stylish and efficient. Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious...",
-    image: "/assets/images/services/floor.jpg",
+    image: "/architecture_website/assets/images/services/floor.jpg",
   },
   {
     name: "Interior",
     tag: "interior",
     description:
       "Our floor planning service is designed to maximize the potential of your space, ensuring both functionality and aesthetic appeal. We meticulously craft layouts that optimize the flow and usability of each area, taking into account your specific needs and preferences. Our expert team combines innovative design principles with practical solutions, creating floor plans that are both stylish and efficient. Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious...",
-    image: "/assets/images/services/interior.jpg",
+    image: "/architecture_website/assets/images/services/interior.jpg",
   },
   {
     name: "Exterior",
     tag: "exterior",
     description:
       "Our floor planning service is designed to maximize the potential of your space, ensuring both functionality and aesthetic appeal. We meticulously craft layouts that optimize the flow and usability of each area, taking into account your specific needs and preferences. Our expert team combines innovative design principles with practical solutions, creating floor plans that are both stylish and efficient. Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious...",
-    image: "/assets/images/services/exterior.jpg",
+    image: "/architecture_website/assets/images/services/exterior.jpg",
   },
   {
     name: "Landscape",
     tag: "landscape",
     description:
       "Our floor planning service is designed to maximize the potential of your space, ensuring both functionality and aesthetic appeal. We meticulously craft layouts that optimize the flow and usability of each area, taking into account your specific needs and preferences. Our expert team combines innovative design principles with practical solutions, creating floor plans that are both stylish and efficient. Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious...",
-    image: "/assets/images/services/landscape.jpg",
+    image: "/architecture_website/assets/images/services/landscape.jpg",
   },
   {
     name: "Architectural",
     tag: "architectural",
     description:
       "Our floor planning service is designed to maximize the potential of your space, ensuring both functionality and aesthetic appeal. We meticulously craft layouts that optimize the flow and usability of each area, taking into account your specific needs and preferences. Our expert team combines innovative design principles with practical solutions, creating floor plans that are both stylish and efficient. Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious Whether it's for a new construction or a renovation project, our floor planning service guarantees a harmonious...",
-    image: "/assets/images/services/architecture.jpg",
+    image: "/architecture_website/assets/images/services/architecture.jpg",
   },
 ];
 

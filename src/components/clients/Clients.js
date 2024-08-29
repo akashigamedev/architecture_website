@@ -16,7 +16,7 @@ export default function Clients() {
       </div>
       {data.map((item) => (
         <div className={styles.testimonialCard}>
-          <img src="/assets/icons/quote.png" alt='""' />
+          <img src="/architecture_website/assets/icons/quote.png" alt='""' />
           <p>{item.review}</p>
           <div className={styles.user}>
             <img className={styles.avatar} src={item.avatar} alt="user image" />

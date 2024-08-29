@@ -1,22 +1,22 @@
 [
   {
     "username": "Annette Black",
-    "avatar": "/assets/images/avatars/image_1.png",
+    "avatar": "/architecture_website/assets/images/avatars/image_1.png",
     "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit felis nec tellus"
   },
   {
     "username": "Cameron Williamson",
-    "avatar": "/assets/images/avatars/image_2.png",
+    "avatar": "/architecture_website/assets/images/avatars/image_2.png",
     "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit felis nec tellus"
   },
   {
     "username": "Jenny Wilson",
-    "avatar": "/assets/images/avatars/image_3.png",
+    "avatar": "/architecture_website/assets/images/avatars/image_3.png",
     "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit felis nec tellus"
   },
   {
     "username": "Devon Lane",
-    "avatar": "/assets/images/avatars/image_4.png",
+    "avatar": "/architecture_website/assets/images/avatars/image_4.png",
     "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit felis nec tellus"
   }
 ]

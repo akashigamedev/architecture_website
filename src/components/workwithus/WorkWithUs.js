@@ -11,7 +11,7 @@ export default function Workus() {
             <h2>Work With Us</h2>
             <img
               className={styles.smallerDevicesImg}
-              src="/assets/images/9.png"
+              src="/architecture_website/assets/images/9.png"
               alt="work"
             />
             <p>
@@ -24,7 +24,7 @@ export default function Workus() {
               Explore opportunities to make a real impact and grow with us.
             </p>
           </div>
-          <img src="/assets/images/9.png" alt="work" />
+          <img src="/architecture_website/assets/images/9.png" alt="work" />
         </div>
       </div>
     </div>

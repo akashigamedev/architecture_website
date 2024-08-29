@@ -2,21 +2,21 @@
   {
     "question": "Do You Provide Only Interior Design Consultancy Services?",
     "answer": "We Are Licensed Professionals/Architects, We Provide Both Architectural And Interior Designing Services.",
-    "image": "./assets/images/15.png"
+    "image": "/architecture_website/assets/images/15.png"
   },
   {
     "question": "Do You Provide End-To-End/Turnkey Services?",
     "answer": "We Have Our Consulting Teams And Partners. You Have The Option To Appoint Them For The Complete End-To-End Solutions.",
-    "image": "./assets/images/15.png"
+    "image": "/architecture_website/assets/images/15.png"
   },
   {
     "question": "Will You Provide Civil And Structural Drawings? What About MEP Drawings?",
     "answer": "We Have Collaboration With The Licensed Engineers And MEP Consultants. You Have The Option To Appoint Them Under The Separate Contract.",
-    "image": "./assets/images/15.png"
+    "image": "/architecture_website/assets/images/15.png"
   },
   {
     "question": "We Want Our Building To Be Vastu Complaint?",
     "answer": "We Always follow The Science Of Vastu While Designing Each Nook And Corner Of The Building. We Understand Vastu Plays An Important Role For Overall Well Being, Peace, And Health. But At The Same Time, It Is Also Important To Maintain The Basic Spatial Planning Without Vastu Being The Sole Dominant Factor. So We Always Seek To Balance The Harmony Between Them To Deliver The Best Viable Option To The Client.",
-    "image": "./assets/images/15.png"
+    "image": "/architecture_website/assets/images/15.png"
   }
 ]

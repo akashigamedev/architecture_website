@@ -4,27 +4,27 @@ import styles from "./Card.module.css";
 const data = [
   {
     title: "Expert Consultation",
-    img: "/assets/images/workwithus/consult.png",
+    img: "/architecture_website/assets/images/workwithus/consult.png",
   },
   {
     title: "Customized Designs",
-    img: "/assets/images/workwithus/design.png",
+    img: "/architecture_website/assets/images/workwithus/design.png",
   },
   {
     title: "3D Visualization",
-    img: "/assets/images/workwithus/3d.png",
+    img: "/architecture_website/assets/images/workwithus/3d.png",
   },
   {
     title: "Comprehensive Planning",
-    img: "/assets/images/workwithus/planning.png",
+    img: "/architecture_website/assets/images/workwithus/planning.png",
   },
   {
     title: "Sustainable Solutions",
-    img: "/assets/images/workwithus/solution.png",
+    img: "/architecture_website/assets/images/workwithus/solution.png",
   },
   {
     title: "Budget Optimization",
-    img: "/assets/images/workwithus/budget.png",
+    img: "/architecture_website/assets/images/workwithus/budget.png",
   }
 ];
 

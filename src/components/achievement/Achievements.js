@@ -7,7 +7,7 @@ export default function Achivements() {
       <div
         className={styles.mainCard}
         style={{
-          backgroundImage: "url(/assets/images/8.png)",
+          backgroundImage: "url(/architecture_website/assets/images/8.png)",
         }}
       >
         <div className={styles.flex}>
