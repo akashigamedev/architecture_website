@@ -34,7 +34,7 @@ export default function Card() {
       <div className={styles.head}>
         <h2>Why Choose Us?</h2>
         <p>
-          Partner with us for expert consultation, personalized designs , and
+          Partner with us for expert consultation, personalized designs, and
           cutting-edge 3D visualizations. We ensure sustainable, cost-effective
           solutions to bring your vision to life.
         </p>

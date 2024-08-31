@@ -10,8 +10,9 @@ export default function ProductSection({ title, description, category, data }) {
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-      {data.map((product) => (
+      {data.map((product, index) => (
         <ProductCard
+          key={index}
           name={product.name}
           description={product.description}
           image={product.image}

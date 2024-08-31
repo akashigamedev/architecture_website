@@ -41,7 +41,7 @@
   background-color: var(--clr-accent);
   padding: 0.5rem;
   border-radius: 50%;
-  color: var(--clr-text-800);
+  color: white;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -51,6 +51,9 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .container {
+    margin: 0 2rem;
+  }
   .card {
     grid-column: span 2;
   }

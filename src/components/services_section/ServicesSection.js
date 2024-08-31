@@ -94,8 +94,9 @@ export default function ServicesSection() {
         </p>
       </div>
       <div className={styles.btnGroup}>
-        {list.map((item) => (
+        {list.map((item, index) => (
           <SelectionButton
+            key={index}
             title={item.name}
             tag={item.tag}
             selected={selected}

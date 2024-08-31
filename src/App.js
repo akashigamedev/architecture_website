@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Footer from "./components/footer/Footer.js";
 import Nav from "./components/nav/Nav.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -9,7 +9,14 @@ import Career from "./pages/career/Career.js";
 import Contact from "./pages/contact/Contact.js";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedMode = localStorage.getItem("darkMode");
+    return savedMode !== null ? JSON.parse(savedMode) : false;
+  });
+
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+  }, [darkMode]);
 
   return (
     <Router>
@@ -26,7 +33,7 @@ function App() {
         </Routes>
       </main>
       <footer>
-        <Footer />
+        <Footer darkMode={darkMode} setDarkMode={setDarkMode} />
       </footer>
     </Router>
   );

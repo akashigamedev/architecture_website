@@ -4,7 +4,56 @@ import { IoLogoInstagram, IoLogoWhatsapp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
-const Footer = () => {
+const Footer = ({ darkMode, setDarkMode }) => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const mainLinks = [
+    {
+      title: "Home",
+      link: "/architecture_website",
+    },
+    {
+      title: "About Us",
+      link: "/about",
+    },
+    {
+      title: "Career",
+      link: "/career",
+    },
+    {
+      title: "Contact Us",
+      link: "/contact",
+    },
+  ];
+  const serviceLinks = [
+    {
+      title: "Interior Design",
+      link: "/services/interior",
+    },
+    {
+      title: "Exterior Design",
+      link: "/services/exterior",
+    },
+    {
+      title: "Floor Plans",
+      link: "/services/floor",
+    },
+    {
+      title: "House Plans",
+      link: "/services/house",
+    },
+    {
+      title: "Landscape Designs",
+      link: "/services/landscape",
+    },
+    {
+      title: "Architectural Drawings",
+      link: "/services/architecture",
+    },
+  ];
+
   return (
     <div className={styles.container}>
       <div className={styles.infoContainer}>
@@ -46,22 +95,27 @@ const Footer = () => {
       <div className={styles.linksSection}>
         <h4>Links</h4>
         <div className={styles.linksGroup}>
-          <Link to="/architecture_website">Home</Link>
-          <Link to="/about">About Us</Link>
-          <Link to="/career">Career</Link>
-          <Link to="/contact">Contact Us</Link>
-          <a href="#nav">Go to top</a>
+          {mainLinks.map((item, index) => (
+            <Link key={index} to={item.link} onClick={scrollToTop}>
+              {item.title}
+            </Link>
+          ))}
+          <button onClick={() => setDarkMode(!darkMode)}>
+            {darkMode ? "Light Mode" : "Dark Mode"}
+          </button>
+          <a href="#nav" onClick={scrollToTop}>
+            Go to top
+          </a>
         </div>
       </div>
       <div className={styles.serviceSection}>
         <h4>Services</h4>
         <div className={styles.serviceGroup}>
-          <Link to="/services/interior">Interior Design</Link>
-          <Link to="/services/exterior">Exterior Design</Link>
-          <Link to="/services/floor">Floor Plans</Link>
-          <Link to="/services/house">House Plans</Link>
-          <Link to="/services/landscape">Landscape Designs</Link>
-          <Link to="/services/architecture">Architectural Drawings</Link>
+          {serviceLinks.map((item, index) => (
+            <Link key={index} to={item.link} onClick={scrollToTop}>
+              {item.title}
+            </Link>
+          ))}
         </div>
       </div>
       <div className={styles.socialSection}>
@@ -72,7 +126,7 @@ const Footer = () => {
         </p>
         <div className={styles.socialLinks}>
           <a href="#">
-            <IoLogoInstagram size={24}/>
+            <IoLogoInstagram size={24} />
           </a>
           <a href="#">
             <FaXTwitter size={24} />

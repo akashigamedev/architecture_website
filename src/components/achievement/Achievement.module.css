@@ -1,146 +1,82 @@
-@media only screen and (min-width: 1100px) {
-  .main {
-    margin-top: 100px;
-    margin-bottom: 90px;
-  }
-  .main p {
-    color: var(--dark-text-400);
-  }
-  .main h2 {
-    text-align: center;
-  }
-  .mainCard {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    position: relative;
-  }
-  .flex {
-    display: flex;
-    gap: 3rem;
-    width: 100%;
-    position: absolute;
-    bottom: 80px;
-  }
-  .by {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 800px;
-  }
-  .comp {
-    background-color: black;
-    width: 80%;
-    height: 200px;
-    border-radius: 3%;
-    text-align: center;
-    padding: 50px;
-    color: white;
-    opacity: 75%;
-  }
+.container {
+  padding: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .cardrow {
-    display: flex;
-    gap: 2rem;
-    margin-left: 150px;
-  }
-  .text {
-    width: 33%;
-    color: white;
+.contentSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+  color: white;
+}
+.textSection p {
+  max-width: 60ch;
+}
+
+.achievementSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  height: 200px;
+  text-align: center;
+}
+.card p,
+.textSection p{
+  color: var(--dark-text-400);
+}
+
+@media only screen and (max-width: 1200px) {
+  .contentSection {
+    column-gap: 2rem;
   }
 }
 
-@media only screen and (min-width: 431px) and (max-width: 1100px) {
-  .main {
-    margin-bottom: 90px;
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 3rem;
   }
-  .main p {
-    color: var(--dark-text-400);
+  .contentSection {
+    row-gap: 2rem;
   }
-  .mainCard {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 480px;
-    position: relative;
-    width: 100%;
+  .achievementSection {
+    grid-column: span 2;
+    order: 1;
   }
+  .textSection {
+    grid-column: span 2;  
+  }
+  .textSection p {
+    max-width: fit-content;
+  }
+}
 
-  .by {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-    padding-top: 30px;
+@media only screen and (max-width: 450px) {
+  .container {
+    padding: 2rem;
   }
-  .comp {
-    background-color: black;
-    width: 80%;
-    height: 200px;
-    border-radius: 3%;
-    text-align: center;
-    padding: 50px;
-    color: white;
-    opacity: 75%;
-  }
-
-  .cardrow {
-    display: flex;
-    gap: 2rem;
-    margin-left: 2%;
-    width: 95%;
-    margin-right: 2%;
-  }
-  .main h2 {
-    text-align: center;
-  }
-  .text {
+  .textSection {
     display: none;
   }
-}
-@media only screen and (max-width: 431px) {
-  .main {
-    margin-bottom: 90px;
-  }
-  .main p {
-    color: var(--dark-text-400);
-  }
-  .mainCard {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 480px;
-    position: relative;
-    width: 100%;
-  }
-
-  .by {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-    padding-top: 30px;
-  }
-  .comp {
-    background-color: black;
-    width: 80%;
-    height: 200px;
-    border-radius: 3%;
-    text-align: center;
-    padding: 50px;
-    color: white;
-    opacity: 75%;
-  }
-
-  .cardrow {
-    display: flex;
-    gap: 2rem;
-    margin-left: 2%;
-    width: 95%;
-    margin-right: 2%;
-  }
-  .main h2 {
-    text-align: center;
-  }
-  .text {
-    display: none;
+  .achievementSection {
+    gap: 0.5rem;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .card p{
+    white-space: wrap;
+  }
+  .card {
+    grid-column: span 2;
+  }
+}
+

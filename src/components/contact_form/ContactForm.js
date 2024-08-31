@@ -83,6 +83,7 @@ export default function ContactForm() {
         {inputFields.map((field) => (
           <Input
             {...field}
+            key={field.key}
             error={formData.errors[field.key]}
             value={formData[field.key]}
             onChange={(e) => handleInputChange(field.key, e.target.value)}

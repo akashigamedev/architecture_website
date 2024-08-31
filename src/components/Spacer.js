@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-const Spacer = ({ size }) => {
+const Spacer = ({ size="medium" }) => {
   let height;
 
   switch (size) {
@@ -19,14 +18,6 @@ const Spacer = ({ size }) => {
   }
 
   return <div style={{ height }} />;
-};
-
-Spacer.propTypes = {
-  size: PropTypes.oneOf(["small", "medium", "large"]),
-};
-
-Spacer.defaultProps = {
-  size: "medium",
 };
 
 export default Spacer;

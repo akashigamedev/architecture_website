@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     background-color: var(--clr-secondary);
-    margin: 0 3rem;
+    margin: 0 5rem;
     border-radius: 10px;
     overflow: hidden;
     padding: 4rem 0;

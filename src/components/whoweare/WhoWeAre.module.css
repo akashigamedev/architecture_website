@@ -26,7 +26,7 @@ section img {
 
 .textSection > p {
     margin-top: -20px;
-    max-width: 50ch;
+    max-width: 50ch;    
 }
 
 @media only screen and (max-width: 1200px) {
@@ -52,6 +52,9 @@ section img {
 @media only screen and (max-width: 450px) {
     .textSection {
         align-items: center;
+    }
+    .textSection p {
+        text-align: start;
     }
     section {
         display: block;
