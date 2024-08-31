@@ -1,0 +1,142 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 0 12rem;
+}
+
+.container > h2 {
+  grid-column: span 2;
+  text-align: center;
+}
+
+.card {
+  background: var(--clr-secondary);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.headSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--clr-text-800);
+}
+.titleGroup {
+  padding-bottom: 0.5rem;
+}
+.detailSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.description {
+  color: var(--clr-text-400);
+}
+
+.btn {
+  background-color: var(--clr-accent);
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--clr-text-800);
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card {
+    grid-column: span 2;
+  }
+}
+.body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.popcontainer {
+  background-color: var(--clr-secondary);
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.popcontainer h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.Pops {
+  width: 400px;
+  background-color: white;
+  border-radius: 6px;
+  position: absolute;
+  margin-top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  display: block;
+}
+
+.Pops img {
+  width: 100px;
+  margin-left: 35%;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
