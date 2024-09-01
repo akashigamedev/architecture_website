@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styles from "./ContactForm.module.css";
 import Button from "../button/Button.js";
+import { IoIosSend } from "react-icons/io";
+import { MdError, MdErrorOutline } from "react-icons/md";
 
 const Input = (props) => {
   const { label, isImportant, onChange, error, ...inputProps } = props;
@@ -17,10 +19,15 @@ const Input = (props) => {
       <input
         {...inputProps}
         onChange={onChange}
-        required={isImportant}
+        required={false}
         style={error ? { border: "2px solid var(--clr-error)" } : {}}
       />
-      {error && <p className={styles.errorMsg}>{`ⓘ ${error}`}</p>}
+      {error && (
+        <p className={styles.errorMsg}>
+          <MdError size={14} />
+          {error}
+        </p>
+      )}
     </div>
   );
 };
@@ -73,13 +80,69 @@ export default function ContactForm() {
     });
   };
 
+  const validateField = (key, value) => {
+    value = value || "";
+    switch (key) {
+      case "firstName":
+        return value.trim() === "" ? "Please enter your first name." : "";
+      case "lastName":
+        return value.trim() == "" ? "Please enter your last name." : "";
+      case "email":
+        if (value.trim() == "") {
+          return "Please enter your email.";
+        }
+        if (!value.includes("@")) {
+          return "Your email is missing an @.";
+        }
+        if (!/^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/.test(value)) {
+          return "Please enter a valid email.";
+        }
+        return "";
+      case "phoneNumber":
+        if (value.trim() == "") {
+          return "Please enter your phone number.";
+        }
+        return !/^\d{10}$/.test(value)
+          ? "Phone number should be 10 digits long."
+          : "";
+      default:
+        return "";
+    }
+  };
+
+  const validateForm = () => {
+    const errors = {};
+    Object.keys(formData).forEach((key) => {
+      if (key != "errors") {
+        const error = validateField(key, formData[key]);
+        if (error) {
+          errors[key] = error;
+        }
+      }
+    });
+    return errors;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const errors = validateForm();
+    console.log(errors);
+
+    if (Object.keys(errors).length == 0) {
+      console.log("Form submitted successfully", formData);
+      setFormData((prevState) => ({ ...prevState, errors: {} }));
+    } else {
+      setFormData((prevState) => ({ ...prevState, errors }));
+    }
+  };
+
   return (
     <div className={styles.grid}>
       <div className={styles.textSection}>
         <h2>Message us</h2>
         <p>We'll get back with you within 24 hours.</p>
       </div>
-      <form>
+      <form className={styles.contactform} onSubmit={handleSubmit}>
         {inputFields.map((field) => (
           <Input
             {...field}
@@ -93,6 +156,7 @@ export default function ContactForm() {
           <label>Message</label>
           <textarea
             placeholder="Which of our services would you be interested in..."
+            value={formData["message"]}
             key="message"
             required={false}
             style={
@@ -101,6 +165,7 @@ export default function ContactForm() {
                 : {}
             }
             rows={3}
+            onChange={(e) => handleInputChange("message", e.target.value)}
           ></textarea>
           {formData.errors["message"] && (
             <p
@@ -108,7 +173,10 @@ export default function ContactForm() {
             >{`ⓘ ${formData.errors["message"]}`}</p>
           )}
         </div>
-        <Button text="Message" style={styles.btn} />
+        <button className={styles.btn} type="submit">
+          Message
+          <IoIosSend size={16} />
+        </button>
       </form>
     </div>
   );
