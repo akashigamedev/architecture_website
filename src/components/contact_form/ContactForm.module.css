@@ -116,9 +116,12 @@
     border: 1px solid var(--clr-text-400);
   }
   .errorMsg {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     color: var(--clr-error);
-    font-weight: bold;
-    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   .grid {
@@ -206,9 +209,12 @@
     border: 1px solid var(--clr-text-400);
   }
   .errorMsg {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     color: var(--clr-error);
-    font-weight: bold;
-    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   .grid {
