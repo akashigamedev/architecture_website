@@ -7,9 +7,10 @@
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
+    transition: background 350ms ease;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: #2542D9;
+    background-color: var(--clr-accent-hover);
 }

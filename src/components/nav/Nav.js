@@ -2,9 +2,11 @@ import React, { useEffect, useRef, useState } from "react";
 import { IoClose, IoMenu, IoMoon, IoSunny } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import styles from "./Nav.module.css";
+import { useDarkMode } from "../../contexts/DarkModeContext";
 
-export default function Nav({ darkMode, setDarkMode }) {
+export default function Nav() {
   const [openMenu, setOpenMenu] = useState(false);
+  const { darkMode, setDarkMode } = useDarkMode();
   const mobileNavRef = useRef(null);
 
   useEffect(() => {
@@ -42,11 +44,11 @@ export default function Nav({ darkMode, setDarkMode }) {
           <Link to="/contact">Contact Us</Link>
         </nav>
         <div className={styles.btnGroup}>
-          <button onClick={() => setDarkMode(!darkMode)}>
+          <button className={styles.btn} onClick={() => setDarkMode(!darkMode)}>
             {darkMode ? <IoMoon size={22} /> : <IoSunny size={24} />}
           </button>
           <button
-            className={styles.menuBtn}
+            className={`${styles.menuBtn} ${styles.btn} `}
             onClick={() => setOpenMenu(!openMenu)}
           >
             {openMenu ? <IoClose size={28} /> : <IoMenu size={28} />}
