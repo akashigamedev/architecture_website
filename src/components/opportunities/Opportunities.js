@@ -71,9 +71,9 @@ export default function Opportunites() {
   return (
     <div className={styles.container}>
       <h2>Career Opportunities</h2>
-      {data.map((item) => {
+      {data.map((item, index) => {
         return (
-          <div className={styles.card}>
+          <div key={index} className={styles.card}>
             <div className={styles.headSection}>
               <div className={styles.titleGroup}>
                 <h4>{item.position}</h4>

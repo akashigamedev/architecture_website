@@ -1,13 +1,28 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import Calculator from "../../components/calculator/Calculator";
+import Spacer from "../../components/Spacer";
 import Testimonials from "../../components/testimonials.js/Testimonials";
 import data from "../../db/services/client.json";
-import Spacer from '../../components/Spacer';
+import projectData from "../../db/services/services.json";
+import ProjectSection from "../../components/product_section/ProductSection";
 
 export default function Services() {
+  const { serviceType } = useParams();
+  const selectedService = projectData.filter(
+    (item) => item.type === serviceType
+  )[0];
   return (
-    <div>
+    <>
+    <Spacer />
+      <ProjectSection
+        title={selectedService.title}
+        description={selectedService.description}
+        data={selectedService.products}
+      />
+      <Spacer />
       <Calculator />
+      <Spacer />
       <Testimonials
         title={"Reviews Of Statisfied Clients"}
         description={
@@ -15,7 +30,7 @@ export default function Services() {
         }
         data={data}
       />
-      <Spacer/>
-    </div>
+      <Spacer size="small" />
+    </>
   );
 }

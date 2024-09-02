@@ -1,0 +1,284 @@
+[
+  {
+    "type": "interior",
+    "title": "Interior Design Projects",
+    "description": "Transform your living spaces with our stunning interior designs. We create stylish, functional environments tailored to your taste and lifestyle, ensuring comfort and elegance in every detail.",
+    "products": [
+      {
+        "name": "Kitchen",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/interior/image_1.png"
+      },
+      {
+        "name": "Living Room",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/interior/image_2.png"
+      },
+      {
+        "name": "Living Room",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/interior/image_3.png"
+      },
+      {
+        "name": "Café Shop",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/interior/image_4.png"
+      },
+      {
+        "name": "Café Shop",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/interior/image_5.png"
+      },
+      {
+        "name": "Bathroom",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/interior/image_6.png"
+      },
+      {
+        "name": "Gaming Room",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/interior/image_7.png"
+      },
+      {
+        "name": "Living Room",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/interior/image_8.png"
+      }
+    ]
+  },
+  {
+    "type": "exterior",
+    "title": "Exterior Design Projects",
+    "description": "Enhance your home's curb appeal with our exceptional exterior designs. We combine aesthetic appeal with functional elements to create beautiful, enduring outdoor spaces that perfectly complement your lifestyle.",
+    "products": [
+      {
+        "name": "Agarwal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_1.png"
+      },
+      {
+        "name": "Singhania Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_2.png"
+      },
+      {
+        "name": "Acharya Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_3.png"
+      },
+      {
+        "name": "Goyal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_4.png"
+      },
+      {
+        "name": "Malhotra Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_5.png"
+      },
+      {
+        "name": "Farm House",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_6.png"
+      },
+      {
+        "name": "Bansal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_7.png"
+      },
+      {
+        "name": "Sharma Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_8.png"
+      }
+    ]
+  },
+  {
+    "type": "floor",
+    "title": "Floor Plans Projects",
+    "description": "Our exceptional floor plans are meticulously crafted to optimize space and functionality, ensuring a seamless flow throughout your home. Each design is tailored to meet your unique lifestyle needs, blending aesthetic appeal with practical living.",
+    "products": [
+      {
+        "name": "Agarwal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_1.png"
+      },
+      {
+        "name": "Singhania Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_2.png"
+      },
+      {
+        "name": "Acharya Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_3.png"
+      },
+      {
+        "name": "Goyal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_4.png"
+      },
+      {
+        "name": "Malhotra Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_5.png"
+      },
+      {
+        "name": "Farm House",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_6.png"
+      },
+      {
+        "name": "Bansal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_7.png"
+      },
+      {
+        "name": "Sharma Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_8.png"
+      }
+    ]
+  },
+  {
+    "type": "house",
+    "title": "House Plans Projects",
+    "description": "Our house plan services offer personalized designs that cater to your vision and lifestyle. We focus on creating efficient, beautiful homes that reflect your personality, ensuring every detail is thoughtfully planned and expertly executed.",
+    "products": [
+      {
+        "name": "Agarwal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_1.png"
+      },
+      {
+        "name": "Singhania Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_2.png"
+      },
+      {
+        "name": "Acharya Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_3.png"
+      },
+      {
+        "name": "Goyal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_4.png"
+      },
+      {
+        "name": "Malhotra Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_5.png"
+      },
+      {
+        "name": "Farm House",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_6.png"
+      },
+      {
+        "name": "Bansal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_7.png"
+      },
+      {
+        "name": "Sharma Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_8.png"
+      }
+    ]
+  },
+  {
+    "type": "landscape",
+    "title": "Landscape Design Projects",
+    "description": "Our landscape design services transform outdoor spaces into breathtaking retreats. We blend creativity with functionality to craft gardens and landscapes that enhance the beauty of your property while providing a serene environment for relaxation and enjoyment.",
+    "products": [
+      {
+        "name": "Agarwal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_1.png"
+      },
+      {
+        "name": "Singhania Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_2.png"
+      },
+      {
+        "name": "Acharya Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_3.png"
+      },
+      {
+        "name": "Goyal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_4.png"
+      },
+      {
+        "name": "Malhotra Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_5.png"
+      },
+      {
+        "name": "Farm House",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_6.png"
+      },
+      {
+        "name": "Bansal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_7.png"
+      },
+      {
+        "name": "Sharma Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_8.png"
+      }
+    ]
+  },
+  {
+    "type": "architecture",
+    "title": "Architecture Drawings Projects",
+    "description": "Architecture drawing is the foundation of our design process, where every detail is meticulously planned and sketched. Our drawings translate your vision into precise, scalable plans, ensuring that every aspect of your project is executed with accuracy and creativity.",
+    "products": [
+      {
+        "name": "Agarwal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_1.png"
+      },
+      {
+        "name": "Singhania Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_2.png"
+      },
+      {
+        "name": "Acharya Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_3.png"
+      },
+      {
+        "name": "Goyal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_4.png"
+      },
+      {
+        "name": "Malhotra Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_5.png"
+      },
+      {
+        "name": "Farm House",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_6.png"
+      },
+      {
+        "name": "Bansal Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_7.png"
+      },
+      {
+        "name": "Sharma Residence",
+        "description": "300ft x 200ft  •  Residential",
+        "image": "/architecture_website/assets/images/exterior/image_8.png"
+      }
+    ]
+  }
+]

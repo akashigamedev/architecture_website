@@ -8,12 +8,11 @@ import Services from "./pages/services/Services.js";
 import Career from "./pages/career/Career.js";
 import Contact from "./pages/contact/Contact.js";
 import { DarkModeProvider } from "./contexts/DarkModeContext.js";
-
+import Error from "./pages/error/Error.js";
 
 function App() {
   return (
     <Router>
-
       <DarkModeProvider>
         <header>
           <Nav />
@@ -22,9 +21,10 @@ function App() {
           <Routes>
             <Route path="/architecture_website/" element={<Homepage />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
+            <Route path="/services/:serviceType" element={<Services />} />
             <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </main>
         <footer>

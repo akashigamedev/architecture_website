@@ -112,7 +112,7 @@ export default function ServicesSection() {
             <img src={image} alt="product image" />
             <p>{description}</p>
           </div>
-          <Button text={"Read More"} style={styles.readMoreBtn} />
+          <Button text={"Read More"} link={`/services/${selected}`} style={styles.readMoreBtn} />
         </>
       )}
     </div>

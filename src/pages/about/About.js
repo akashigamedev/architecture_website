@@ -1,6 +1,6 @@
 import React from "react";
 import WhoWeAre from "../../components/whoweare/WhoWeAre";
-import Card from "../../components/card/Card";
+import WhyChooseUs from "../../components/whychooseus/WhyChooseUs";
 import Leader from "../../components/leaders/Leaders";
 import Achivements from "../../components/achievement/Achievements";
 import Spacer from '../../components/Spacer';
@@ -9,7 +9,7 @@ export default function About() {
     <div>
       <WhoWeAre />
       <Spacer />
-      <Card />
+      <WhyChooseUs />
       <Spacer />
       <Leader />
       <Achivements />

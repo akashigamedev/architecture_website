@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./Card.module.css";
+import styles from "./WhyChooseUs.module.css";
+import IconCard from "../icon_card/IconCard";
 
 const data = [
   {
@@ -28,7 +29,7 @@ const data = [
   }
 ];
 
-export default function Card() {
+export default function WhyChooseUs() {
   return (
     <div className={styles.big}>
       <div className={styles.head}>
@@ -42,13 +43,7 @@ export default function Card() {
 
       <div className={styles.cardGroup}>
         {data.map((item) => (
-          <div className={styles.card}>
-            <img
-              src={item.img}
-              alt={item.title}
-            />
-            <h4>{item.title}</h4>
-          </div>
+          <IconCard item={item}/>
         ))}
       </div>
     </div>

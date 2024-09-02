@@ -1,0 +1,33 @@
+.errorPage {
+  display: grid;
+  width: 100vw;
+  height: 100%;
+  place-items: center;
+  margin: 5rem 0;
+  margin-bottom: 8rem;
+}
+
+.errorPage h1 {
+    font-size: 10rem;
+    line-height: 1.2;
+    letter-spacing: 10px;
+}
+.errorPage p {
+    color: var(--clr-text-400);
+}
+
+.errorPage .btn {
+    margin-top: 1rem;
+    color: white;
+    background: var(--clr-accent);
+    text-decoration: none;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background 350ms ease;
+}
+.errorPage .btn:hover,
+.errorPage .btn:focus {
+    background: var(--clr-accent-hover);
+}
