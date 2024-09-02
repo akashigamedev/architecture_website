@@ -8,6 +8,7 @@ import Services from "./pages/services/Services.js";
 import Career from "./pages/career/Career.js";
 import Contact from "./pages/contact/Contact.js";
 
+
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
     const savedMode = localStorage.getItem("darkMode");
@@ -21,7 +22,7 @@ function App() {
   return (
     <Router>
       <header>
-        <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
+      <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
       </header>
       <main>
         <Routes>
@@ -33,6 +34,7 @@ function App() {
         </Routes>
       </main>
       <footer>
+      
         <Footer darkMode={darkMode} setDarkMode={setDarkMode} />
       </footer>
     </Router>
