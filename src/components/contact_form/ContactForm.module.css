@@ -1,15 +1,15 @@
-@media only screen and (min-width : 1100px){
-.inputSection {
+@media only screen and (min-width: 1100px) {
+  .inputSection {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-}
-.inputSection label {
+  }
+  .inputSection label {
     font-weight: bold;
-}
+  }
 
-.inputSection input,
-.inputSection textarea {
+  .inputSection input,
+  .inputSection textarea {
     outline: none;
     background-color: var(--clr-secondary);
     border: none;
@@ -17,37 +17,41 @@
     padding: 1rem;
     border-radius: 10px;
     resize: none;
-}
-.inputSection input:focus {
+  }
+  .inputSection input:focus {
     border: 1px solid var(--clr-text-400);
-}
-.errorMsg {
+  }
+  .errorMsg {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     color: var(--clr-error);
-    font-weight: bold;
-    text-transform: capitalize;
-}
+    font-size: 14px;
+    font-weight: 400;
+  }
 
-.grid {
+  .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 2rem;
     margin: 0 3rem;
-}
+  }
 
-.textSection {
+  .textSection {
     grid-column: 2 / span 10;
     text-align: center;
-}
+  }
 
-.textSection h2, .textSection p {
+  .textSection h2,
+  .textSection p {
     margin-bottom: 1rem;
-}
+  }
 
-.textSection p {
+  .textSection p {
     color: var(--clr-text-400);
-}
+  }
 
-form {
+  .contactform {
     grid-row-start: 2;
     grid-column: span 12;
     justify-self: center;
@@ -55,171 +59,206 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-}
+  }
 
-form .inputSection {
+  .contactform .inputSection {
     grid-column: span 2;
-}
+  }
 
-form .inputSection:first-child,
-form .inputSection:nth-child(2) {
+  .contactform .inputSection:first-child,
+  .contactform .inputSection:nth-child(2) {
     grid-column: span 1;
-}
+  }
 
-form .btn {
+  .contactform .btn {
+    cursor: pointer;
+    grid-column: span 2;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
-    grid-column: span 2;
+    text-align: center;
+    gap: 8px;
     margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    font-weight: bold;
+    background: var(--clr-accent);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background 350ms ease;
+  }
+
+  .contactform .btn:hover {
+    background: var(--clr-accent-hover);
+  }
+}
+@media only screen and (min-width: 431px) and (max-width: 1100px) {
+  .inputSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .inputSection label {
+    font-weight: bold;
+  }
+
+  .inputSection input,
+  .inputSection textarea {
+    outline: none;
+    background-color: var(--clr-secondary);
+    border: none;
+    color: var(--clr-text-800);
+    padding: 1rem;
+    border-radius: 10px;
+    resize: none;
+  }
+  .inputSection input:focus {
+    border: 1px solid var(--clr-text-400);
+  }
+  .errorMsg {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--clr-error);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+    margin: 0 3rem;
+  }
+
+  .textSection {
+    grid-column: 2 / span 10;
+    text-align: center;
+  }
+
+  .textSection h2,
+  .textSection p {
+    margin-bottom: 1rem;
+  }
+
+  .textSection p {
+    color: var(--clr-text-400);
+  }
+
+  .contactform {
+    grid-row-start: 2;
+    grid-column: span 12;
+    justify-self: center;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .contactform .inputSection {
+    grid-column: span 2;
+  }
+
+  .contactform .inputSection:first-child,
+  .contactform .inputSection:nth-child(2) {
+    grid-column: span 1;
+  }
+
+  .contactform .btn {
+    cursor: pointer;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    font-weight: bold;
+    background: var(--clr-accent);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background 350ms ease;
+  }
 }
 
-}
-@media only screen and (min-width : 431px)and ( max-width:1100px){
-    .inputSection {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    .inputSection label {
-        font-weight: bold;
-    }
-    
-    .inputSection input,
-    .inputSection textarea {
-        outline: none;
-        background-color: var(--clr-secondary);
-        border: none;
-        color: var(--clr-text-800);
-        padding: 1rem;
-        border-radius: 10px;
-        resize: none;
-    }
-    .inputSection input:focus {
-        border: 1px solid var(--clr-text-400);
-    }
-    .errorMsg {
-        color: var(--clr-error);
-        font-weight: bold;
-        text-transform: capitalize;
-    }
-    
-    
-    
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 2rem;
-        margin: 0 3rem;
-    }
-    
-    .textSection {
-        grid-column: 2 / span 10;
-        text-align: center;
-    }
-    
-    .textSection h2, .textSection p {
-        margin-bottom: 1rem;
-    }
-    
-    .textSection p {
-        color: var(--clr-text-400);
-    }
-    
-    form {
-        grid-row-start: 2;
-        grid-column: span 12;
-        justify-self: center;
-        max-width: 600px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
-    
-    form .inputSection {
-        grid-column: span 2;
-    }
-    
-    form .inputSection:first-child,
-    form .inputSection:nth-child(2) {
-        grid-column: span 1;
-    }
-    
-    form .btn {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        grid-column: span 2;
-        margin-top: 1rem;
-    }
-}
+@media only screen and (max-width: 431px) {
+  .inputSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    grid-column: span 2;
+  }
+  .inputSection label {
+    font-weight: bold;
+  }
 
-    @media only screen and (max-width : 431px){
-        .inputSection {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }
-        .inputSection label {
-            font-weight: bold;
-        }
-        
-        .inputSection input,
-        .inputSection textarea {
-            outline: none;
-            background-color: var(--clr-secondary);
-            border: none;
-            color: var(--clr-text-800);
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            resize: none;
-        }
-        .inputSection input:focus {
-            border: 1px solid var(--clr-text-400);
-        }
-        .errorMsg {
-            color: var(--clr-error);
-            font-weight: bold;
-            text-transform: capitalize;
-        }
-        
-        
-        
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            gap: 0;
-            row-gap: 2rem;
-            margin: 0 2rem;
-        }
-        
-        .textSection {
-            grid-column: 2 / span 10;
-            text-align: center;
-        }
-        .textSection h2, .textSection p {
-            margin-bottom: 1rem;
-        }
-        
-        .textSection p {
-            color: var(--clr-text-400);
-        }
-        
-        form {
-            grid-row-start: 2;
-            grid-column: span 12;
-            display: grid;
-            gap: 1rem;
-        }
-        form .btn {
-            
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            
-            margin-top: 1rem;
-        }
+  .inputSection input,
+  .inputSection textarea {
+    outline: none;
+    background-color: var(--clr-secondary);
+    border: none;
+    color: var(--clr-text-800);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    resize: none;
+  }
 
-    }
+  .inputSection input:focus {
+    border: 1px solid var(--clr-text-400);
+  }
+  .errorMsg {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--clr-error);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0;
+    row-gap: 2rem;
+    margin: 0 2rem;
+  }
+
+  .textSection {
+    grid-column: 2 / span 10;
+    text-align: center;
+  }
+  .textSection h2,
+  .textSection p {
+    margin-bottom: 1rem;
+  }
+
+  .textSection p {
+    color: var(--clr-text-400);
+  }
+
+  .contactform {
+    grid-row-start: 2;
+    grid-column: span 12;
+    display: grid;
+    gap: 1rem;
+  }
+  .contactform .btn {
+    cursor: pointer;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    font-weight: bold;
+    background: var(--clr-accent);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background 350ms ease;
+  }
+}

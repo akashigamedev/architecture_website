@@ -3,8 +3,10 @@ import { FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { IoLogoInstagram, IoLogoWhatsapp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
+import { useDarkMode } from "../../contexts/DarkModeContext";
 
-const Footer = ({ darkMode, setDarkMode }) => {
+const Footer = () => {
+  const { darkMode, setDarkMode } = useDarkMode();
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -100,7 +102,7 @@ const Footer = ({ darkMode, setDarkMode }) => {
               {item.title}
             </Link>
           ))}
-          <button onClick={() => setDarkMode(!darkMode)}>
+          <button className={styles.btn} onClick={() => setDarkMode(!darkMode)}>
             {darkMode ? "Light Mode" : "Dark Mode"}
           </button>
           <a href="#nav" onClick={scrollToTop}>

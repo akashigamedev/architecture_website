@@ -7,36 +7,30 @@ import About from "./pages/about/About.js";
 import Services from "./pages/services/Services.js";
 import Career from "./pages/career/Career.js";
 import Contact from "./pages/contact/Contact.js";
+import { DarkModeProvider } from "./contexts/DarkModeContext.js";
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(() => {
-    const savedMode = localStorage.getItem("darkMode");
-    return savedMode !== null ? JSON.parse(savedMode) : false;
-  });
-
-  useEffect(() => {
-    localStorage.setItem("darkMode", JSON.stringify(darkMode));
-  }, [darkMode]);
-
   return (
     <Router>
-      <header>
-      <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
-      </header>
-      <main>
-        <Routes>
-          <Route path="/architecture_website/" element={<Homepage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/career" element={<Career />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
-      <footer>
-      
-        <Footer darkMode={darkMode} setDarkMode={setDarkMode} />
-      </footer>
+
+      <DarkModeProvider>
+        <header>
+          <Nav />
+        </header>
+        <main>
+          <Routes>
+            <Route path="/architecture_website/" element={<Homepage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/career" element={<Career />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+      </DarkModeProvider>
     </Router>
   );
 }

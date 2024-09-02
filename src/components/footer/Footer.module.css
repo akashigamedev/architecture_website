@@ -9,6 +9,19 @@
   justify-items: end;
 }
 
+.btn {
+  padding: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+.btn:hover,
+.btn  :focus {
+  color: var(--clr-accent);
+}
+
+
 p {
   color: var(--clr-text-400);
 }
@@ -61,6 +74,13 @@ p {
   color: var(--clr-text-400);
   padding: 0.5rem;
   padding-left: 0;
+  transition: color 350ms ease;
+}
+.linksGroup > *:hover,
+.linksGroup > *:focus,
+.serviceGroup > *:hover,
+.serviceGroup > *:focus {
+  color: var(--clr-accent);
 }
 
 .socialLinks {
@@ -73,7 +93,7 @@ p {
 }
 .socialLinks a {
   color: inherit;
-  transition: color 300ms ease-in;
+  transition: color 350ms ease;
 }
 .socialLinks a:hover,
 .socialLinks a:focus {
