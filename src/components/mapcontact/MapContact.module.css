@@ -85,4 +85,9 @@ span {
   .icon {
     display: none;
   }
+  .infoItem span {
+    max-width: 32ch;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
 }

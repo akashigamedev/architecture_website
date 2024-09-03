@@ -19,6 +19,8 @@ export default function Services() {
         title={selectedService.title}
         description={selectedService.description}
         data={selectedService.products}
+        btnTitle={"Load More"}
+        link={() => {/* Load function here */}}
       />
       <Spacer />
       <Calculator />
