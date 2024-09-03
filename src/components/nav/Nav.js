@@ -46,7 +46,7 @@ export default function Nav() {
           <Link to="/about">About Us</Link>
 
           <div className={styles.dropdown}>
-            <Link to="/services">Services</Link>
+            <Link>Services</Link>
             <div className={styles.dropdown_content}>
               <Link to="/services/interior">Interior Designs</Link>
               <Link to="/services/exterior">Exterior Designs</Link>
@@ -87,7 +87,7 @@ export default function Nav() {
           <nav className={styles.menu}>
             <div>
               <Link
-                to="/services"
+  
                 className={styles.services}
                 onClick={toggleAccordion}
               >
