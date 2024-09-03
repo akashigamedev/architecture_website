@@ -96,12 +96,12 @@ export default function Nav() {
             </div>
             {isOpen && (
               <div className={styles.dropdown}>
-                <Link to="/services/exterior" className={styles.dropdown_item}>Exterior Design</Link>
-                <Link to="/services/interior" className={styles.dropdown_item}>Interior Design</Link>
-                <Link to="/services/floor" className={styles.dropdown_item}>Floor Planning</Link>
-                <Link to="/services/house" className={styles.dropdown_item}>House Planning</Link>
-                <Link to="/services/landscape" className={styles.dropdown_item}>Landscape Design</Link>
-                <Link to="/services/architecture" className={styles.dropdown_item}>Architectural Drawings</Link>
+                <Link to="/services/exterior" className={styles.dropdown_item}  onClick={() => setOpenMenu(!openMenu)}>Exterior Design</Link>
+                <Link to="/services/interior" className={styles.dropdown_item} onClick={() => setOpenMenu(!openMenu)}>Interior Design</Link>
+                <Link to="/services/floor" className={styles.dropdown_item} onClick={() => setOpenMenu(!openMenu)}>Floor Planning</Link>
+                <Link to="/services/house" className={styles.dropdown_item} onClick={() => setOpenMenu(!openMenu)}>House Planning</Link>
+                <Link to="/services/landscape" className={styles.dropdown_item} onClick={() => setOpenMenu(!openMenu)}>Landscape Design</Link>
+                <Link to="/services/architecture" className={styles.dropdown_item} onClick={() => setOpenMenu(!openMenu)}>Architectural Drawings</Link>
               </div>
             )}
           </nav>

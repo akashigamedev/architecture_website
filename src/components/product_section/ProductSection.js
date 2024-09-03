@@ -3,7 +3,14 @@ import ProductCard from "../product_card/ProductCard";
 import styles from "./ProductSection.module.css";
 import Button from "../button/Button";
 
-export default function ProductSection({ title, description, category, data }) {
+export default function ProductSection({
+  title,
+  description,
+  category,
+  data,
+  btnTitle,
+  link,
+}) {
   return (
     <div className={styles.container}>
       <div className={styles.textSection}>
@@ -20,8 +27,8 @@ export default function ProductSection({ title, description, category, data }) {
         />
       ))}
       <Button
-        text={"View All"}
-        link={`/services/${category}`}
+        text={btnTitle}
+        link={link ? link : `/services/${category}`}
         style={styles.btn}
       />
     </div>

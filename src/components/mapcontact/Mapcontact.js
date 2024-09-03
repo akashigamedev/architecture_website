@@ -8,7 +8,7 @@ import styles from "./MapContact.module.css";
 
 const data = {
   email: "homebuildingassociates.interior@gmail.com",
-  phone: "+91(829) 987-1379  •  +91(991) 985-2251",
+  phone: "+91 (829) 987-1379  •  +91 (991) 985-2251",
   address: `Home Building Associates 119/517,
      Darshan Purwa, Kanpur 208012, Uttar Pradesh`,
 };

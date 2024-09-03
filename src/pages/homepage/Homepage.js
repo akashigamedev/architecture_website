@@ -28,6 +28,7 @@ export default function Homepage() {
         }
         category={"interior"}
         data={interior_data}
+        btnTitle={"View All"}
       />
       <Spacer />
       <ProductSection
@@ -37,6 +38,7 @@ export default function Homepage() {
         }
         category={"exterior"}
         data={exterior_data}
+        btnTitle={"View All"}
       />
       <Spacer />
       <ProjectStats data={project_stats} />
@@ -49,6 +51,7 @@ export default function Homepage() {
         title="What Our Clients Say?"
         description="Hear directly from our satisfied clients about their experiences working with us. Their testimonials highlight our commitment to exceptional design, personalized service, and successful project outcomes."
         data={testimonial_data}
+        btnTitle={"View All"}
       />
       <Spacer />
       <ContactForm />
